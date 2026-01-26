@@ -1,22 +1,22 @@
-full_name: Escola Regional de Alto Desempenho da Região Sudeste 2025
-short_name: ERAD-SE 2025
+full_name: Escola Regional de Alto Desempenho da Região Sudeste 2026
+short_name: ERAD-SE 2026
 description: > # this means to ignore newlines until "baseurl:"
-  O público-alvo da ERAD-SE 2025 são alunos de graduação, pós-graduação e iniciação científica, 
+  O público-alvo da ERAD-SE 2026 são alunos de graduação, pós-graduação e iniciação científica, 
   profissionais, professores e pesquisadores que atuam na área de Computação de Alto Desempenho e em áreas que 
   fazem uso intensivo de supercomputação, como por exemplo, Bioinformática, Engenharias, Petróleo, Óleo e Gás, 
   e Saúde, além de representantes das empresas, da indústria e do governo. 
 
 email: erad-se-info@ic.uff.br
 
-iteration: 10a
-full_title: X Escola Regional de Alto Desempenho da Região Sudeste
-short_title: X ERAD-SE 2025
+iteration: 11a
+full_title: XI Escola Regional de Alto Desempenho da Região Sudeste
+short_title: XI ERAD-SE 2026
 
 year: 2025
-date: 5 a 7 de Novembro de 2025
+date: 11 a 13 de Agosto de 2026
 
 location: Instituto de Computação 
-location2: Universidade Federal Fluminense (UFF)
+location2: Universidade Federal de Juiz de Fora (UFJF)
 country: Niterói, Brasil
 
 logo_path: ./assets/images/ERAD-SE-FLogo.png
@@ -166,10 +166,10 @@ navbar:
     - id: 2
       label: Artigos Aceitos
       path: /accepted.html
-      visible: True
+      visible: False
   - id: 4
     label: Programação
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Cronograma
@@ -278,6 +278,9 @@ social_media:
   insta_link: https://www.instagram.com/eradse.sbc
 
 previous_iterations:
+  - name: X ERAD-SE
+    year: 2025
+    url: https://crad-se.github.io/erad-se2025/
   - name: IX ERAD-RJ
     year: 2024
     url: https://eradrj.sbc.org.br/2024/
