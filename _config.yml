@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://crad-se.github.io/erad-se2025" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://crad-se.github.io/erad-se2026" # the base hostname & protocol for your site, e.g. http://example.com
 css: ./assets/main.css
 
 show_last_updated: True
