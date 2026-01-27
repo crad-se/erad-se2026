@@ -1,21 +1,22 @@
 - title: Coordenação Geral
   column: 1
   members:
-  - name: Cristina Boeres
+#  - name: Cristina Boeres
+#    post: ""
+#    org: Universidade Federal Fluminense (UFF), Niterói - RJ
+#    homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
+  - name: Marcelo Lobosco
     post: ""
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
-  - name: Vinod Rebello
+    org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
+    homepage: ""
+  - name: Jose J. Camata
     post: ""
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
+    org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
+    homepage: "" 
+
 - title: Coordenação do Comitê de Programa dos Forúns
   column: 1
   members:
-  - name: Gabriel Silva
-    org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
-    post: ""
-    homepage: ""
   - name: Ricardo Ferreira
     org: Universidade Federal de Viçosa (UFV), Viçosa - MG
     post: ""
@@ -35,15 +36,9 @@
   - name: Marcelo Zamith
     org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
     homepage: ""
-  - name: Leandro Santiago de Araújo
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
 - title: Coordenação dos Minicursos
   column: 1
   members:
-  - name: Maria Clicia Stelling de Castro
-    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-    homepage: ""
   - name: Rafaela Brum
     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
     homepage: ""
