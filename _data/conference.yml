@@ -17,7 +17,7 @@ date: 11 a 13 de Agosto de 2026
 
 location: Departamento de Ciência da Computação 
 location2: Universidade Federal de Juiz de Fora (UFJF)
-country: Niterói, Brasil
+country: Juiz de Fora, Brasil
 
 logo_path: ./assets/images/ERAD-SE-FLogo.png
 sbc_path: ./assets/images/LogoSBC-Site.png
@@ -33,42 +33,6 @@ show_logo: true
 show_title: false
 
 slideshow:
-  - id: 0
-    image_path: ./assets/images/slideshow/baia.jpg
-    description: Baia de Guanabara
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-    active: True
-  - id: 1
-    image_path: ./assets/images/slideshow/mac.jpg
-    description: Museu de Arte Contemporânea de Niterói
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 2
-    image_path: ./assets/images/slideshow/Parque.jpg
-    description: Vista da Parque da Cidade
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 3
-    image_path: ./assets/images/slideshow/ilha.jpg
-    description: Ilha de Boa Viagem
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 4
-    image_path: ./assets/images/slideshow/Charitas.jpg
-    description: Por de Sol de Charitas
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 5
-    image_path: ./assets/images/slideshow/Pedra.jpg
-    description: Pedra do Índio, Icaraí
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 6
-    image_path: ./assets/images/slideshow/Icarai.jpg
-    description: Niterói
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
   - id: 7
     image_path: ./assets/images/ERAD-SE-3-peach.png
     description: ES-MG-RJ
@@ -131,7 +95,7 @@ navbar:
   - id: 2
 #    label: Chamada de Trabalhos
     label: Chamadas
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Concurso de TCCs e Dissertações
@@ -157,7 +121,7 @@ navbar:
     label: Submissões
     # Added the following line since only child
     # path: /submission.html 
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Como Submeter
@@ -185,7 +149,7 @@ navbar:
       visible: True
   - id: 5
     label: Inscrições
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Promo
@@ -198,7 +162,7 @@ navbar:
   - id: 6
     label: Venue
     path: /venue.html
-    visible: True
+    visible: False
     
 deadline_timezone: AoE
 deadlines:
@@ -206,65 +170,65 @@ deadlines:
 #    timezone: AoE
 #    text: Submission deadline
 #    pass_due: True
-#    strike_through: True
+#    strike_through: False
 #  - date: 2025-09-22
 #    text: Submissão de Trabalhos
 #    pass_due: True
+#    strike_through: False
+#  - date: 2025-09-29
+#    text: Submissão de Trabalhos
+#    pass_due: False
+#    strike_through: False
+#  - date: 2025-09-29
+#    text: Propostas de Minicursos (Fechada)
+#    pass_due: False
+#    strike_through: False
+#  - date: 2025-10-05
+#    text: Submissão de Trabalhos (Fechada)
+#    pass_due: False
+#    strike_through: False
+# - date: 2025-10-20
+#    text: Notificação de Aceitação
+#    pass_due: False
+#    strike_through: False
+# - date: 2025-10-27
+#    text: Entrega da Versão Final
+#    pass_due: False
+#    strike_through: False
+#  - date: 2025-10-31
+#    text: Entrega da Versão Final
+#    pass_due: False
+#    strike_through: False
+#  - date: 2025-10-31
+#    text: Prazo para as Inscrições dos Autores
+#    pass_due: False
 #    strike_through: True
-  - date: 2025-09-29
-    text: Submissão de Trabalhos
-    pass_due: False
-    strike_through: True
-  - date: 2025-09-29
-    text: Propostas de Minicursos (Fechada)
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-05
-    text: Submissão de Trabalhos (Fechada)
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-20
-    text: Notificação de Aceitação
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-27
-    text: Entrega da Versão Final
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-31
-    text: Entrega da Versão Final
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-31
-    text: Prazo para as Inscrições dos Autores
-    pass_due: False
-    strike_through: True
-  - date: 2025-11-04
-    text: Prazo para Registro das Equipes da Maratona
-    pass_due: False
-    strike_through: True
+#  - date: 2025-11-04
+#    text: Prazo para Registro das Equipes da Maratona
+#    pass_due: False
+#    strike_through: True
 
 sponsors:
-  - name: Amazon Web Services
-    logo_path: ./assets/images/sponsors/AWS_logo_RGB_BLK.png
-    url: https://aws.amazon.com/
-  - name: Hewlett Packard Enterprise 
-    logo_path: ./assets/images/sponsors/HPE2.png
-    url: https://www.hpe.com/br/pt/home.html
-  - name: Advanced Micro Devices
-    logo_path: ./assets/images/sponsors/AMD_E_Blk_RGB.png
-    url: https://www.amd.com/
-  - name: LexisNexis Risk Solutions
-    logo_path: ./assets/images/sponsors/logo_lexis.png
-    url: https://risk.lexisnexis.com.br/
-  - name: Centro de Estudos e Sistemas Avançados do Recife
-    logo_path: ./assets/images/sponsors/logo-cesar.png
-    url: https://www.cesar.org.br/
+#  - name: Amazon Web Services
+#    logo_path: ./assets/images/sponsors/AWS_logo_RGB_BLK.png
+#    url: https://aws.amazon.com/
+#  - name: Hewlett Packard Enterprise 
+#    logo_path: ./assets/images/sponsors/HPE2.png
+#    url: https://www.hpe.com/br/pt/home.html
+#  - name: Advanced Micro Devices
+#    logo_path: ./assets/images/sponsors/AMD_E_Blk_RGB.png
+#    url: https://www.amd.com/
+#  - name: LexisNexis Risk Solutions
+#    logo_path: ./assets/images/sponsors/logo_lexis.png
+#    url: https://risk.lexisnexis.com.br/
+#  - name: Centro de Estudos e Sistemas Avançados do Recife
+#    logo_path: ./assets/images/sponsors/logo-cesar.png
+#    url: https://www.cesar.org.br/
 organizers:
-  - logo_path: ./assets/images/sponsors/UFF.png
-    url: https://www.ic.uff.br
-  - logo_path: ./assets/images/sponsors/logo-ufrj2.png
-    url: https://www.ic.ufrj.br
+#  - logo_path: ./assets/images/sponsors/UFF.png
+#    url: https://www.ic.uff.br
+#  - logo_path: ./assets/images/sponsors/logo-ufrj2.png
+#    url: https://www.ic.ufrj.br
   - logo_path: ./assets/images/sponsors/UFV.png
     url: https://ccp.ufv.br/
   - logo_path: ./assets/images/sponsors/uerj.gif
