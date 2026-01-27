@@ -29,8 +29,8 @@ sbc_description: >
   avanços recentes nestas áreas e formas de ensino de alto desempenho nas universidades e institutos de pesquisa. 
 
 # if show_logo is false, show_title: false has no effect
-show_logo: true
-show_title: false
+show_logo: False
+show_title: True
 
 slideshow:
   - id: 0
