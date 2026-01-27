@@ -33,52 +33,52 @@ show_logo: true
 show_title: false
 
 slideshow:
-  - id: 7
+  - id: 0
     image_path: ./assets/images/ERAD-SE-3-peach.png
     description: ES-MG-RJ
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-  - id: 8
+  - id: 1
     image_path: ./assets/images/slideshow/eraduff.jpg
     description: ERAD-SE 2025 @ IC-UFF
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-  - id: 9
+  - id: 2
     image_path: ./assets/images/slideshow/pal-aws.jpg
     description: Palestra AWS @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 10
+  - id: 3
     image_path: ./assets/images/slideshow/pal-petro.jpg
     description: Palestra PETROBRAS @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 11
+  - id: 4
     image_path: ./assets/images/slideshow/mc-aws.jpg
     description: Minicurso AWS @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-  - id: 12
+  - id: 5
     image_path: ./assets/images/slideshow/pal-viktor.jpg
     description: Palestra de Prof. Viktor Prasanna @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 13
+  - id: 6
     image_path: ./assets/images/slideshow/pal-alet.jpg
     description: Palestra de Profa. Aleteia Araújo @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 14
+  - id: 7
     image_path: ./assets/images/slideshow/pal-lexis.jpg
     description: Palestra LexisNexis @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 15
+  - id: 8
     image_path: ./assets/images/slideshow/pal-hpe.jpg
     description: Palestra HPE @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 16
+  - id: 9
     image_path: ./assets/images/slideshow/coffee.jpg
     description: Coffee Break Discussions @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
@@ -171,9 +171,9 @@ deadlines:
 #    text: Submission deadline
 #    pass_due: True
 #    strike_through: False
-#  - date: 2025-09-22
-#    text: Submissão de Trabalhos
-#    pass_due: True
+  - date: 2026-08-11
+    text: ERAD-SE 2026 começa!
+#    pass_due: False
 #    strike_through: False
 #  - date: 2025-09-29
 #    text: Submissão de Trabalhos
