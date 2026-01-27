@@ -1,5 +1,5 @@
-# - date: 2025-08-25
-#  text: ERAD-SE Website ficou on-line.
+ - date: 2025-08-25
+  text: ERAD-SE Website ficou on-line.
 #- date: 2025-08-25
 #  text: A <strong><a href="./cfi.html">Chamada de Trabalhos de IC</a></strong> foi publicada.
 #- date: 2025-08-25
@@ -8,26 +8,26 @@
 #  text: A <strong><a href="./cfd.html">Chamada de Trabalhos de TCC e Dissertações</a></strong> foi publicada.
 #- date: 2025-08-27
 #  text: A <strong><a href="./cfm.html">Chamada de Minicursos</a></strong> foi publicada.
-- date: 2025-08-27
-  text: A <strong><a href="./cfpp.html">Chamada de Equipes para a Maratona</a></strong> foi publicada.
-- date: 2025-09-02
-  text: <strong><a href="./talks.html">Palestrantes</a></strong> confirmados. Obrigado Profa. Aletéia Araújo (Universidade de Brasília) e Drs. Felipe Portella e Guilherme Vilela (Petrobras). </span>
-- date: 2025-09-09
-  text: As <strong><a href="./registration.html">Inscrições</a></strong> estão abertas!
-- date: 2025-09-12
-  text: <strong><a href="./talks.html">Palestra</a></strong> e <strong><a href="./mcursos.html">minicurso</a></strong> confirmados. Obrigado Prof. Mauro Marques (LexisNexis). </span>
-- date: 2025-09-24
-  text: Mais uma <strong><a href="./talks.html">Palestra</a></strong> e <strong><a href="./mcursos.html">minicurso</a></strong> confirmados. Obrigado Marcelo Baptista (AWS). </span>
+#- date: 2025-08-27
+#  text: A <strong><a href="./cfpp.html">Chamada de Equipes para a Maratona</a></strong> foi publicada.
+#- date: 2025-09-02
+#  text: <strong><a href="./talks.html">Palestrantes</a></strong> confirmados. Obrigado Profa. Aletéia Araújo (Universidade de Brasília) e Drs. Felipe Portella e Guilherme Vilela (Petrobras). </span>
+#- date: 2025-09-09
+#  text: As <strong><a href="./registration.html">Inscrições</a></strong> estão abertas!
+#- date: 2025-09-12
+#  text: <strong><a href="./talks.html">Palestra</a></strong> e <strong><a href="./mcursos.html">minicurso</a></strong> confirmados. Obrigado Prof. Mauro Marques (LexisNexis). </span>
+#- date: 2025-09-24
+#  text: Mais uma <strong><a href="./talks.html">Palestra</a></strong> e <strong><a href="./mcursos.html">minicurso</a></strong> confirmados. Obrigado Marcelo Baptista (AWS). </span>
 #  text: <span class="text-info">Palestra e minicurso confirmados. Obrigado Prof. Mauro Marques (LexisNexis). </span>
-- date: 2025-10-15
-  text: <strong><a href="./talks.html">Palestra Internacional</a></strong> confirmada. Obrigado Prof. Vitkor Prasanna (USC, EUA). </span>
-- date: 2025-10-17
-  text: Dois novos <strong><a href="./mcursos.html">minicursos</a></strong> confirmados. Obrigado Leon Barboza e Prof. Evaldo Costa do CESAR e Gustavo de Lima e Profa. Silvana Rossetto da UFRJ. </span>
-- date: 2025-10-20
-  text: Os <strong><a href="./accepted.html">Artigos Aceitos</a></strong> foram anunciados! Parabéns aos autores! Instruções para a versão <i>camera ready</i> estão na mesma página. 
-- date: 2025-10-24
-  text: A <strong><a href="./program.html">Programação</a></strong> está disponível.
+#- date: 2025-10-15
+#  text: <strong><a href="./talks.html">Palestra Internacional</a></strong> confirmada. Obrigado Prof. Vitkor Prasanna (USC, EUA). </span>
+#- date: 2025-10-17
+#  text: Dois novos <strong><a href="./mcursos.html">minicursos</a></strong> confirmados. Obrigado Leon Barboza e Prof. Evaldo Costa do CESAR e Gustavo de Lima e Profa. Silvana Rossetto da UFRJ. </span>
+#- date: 2025-10-20
+#  text: Os <strong><a href="./accepted.html">Artigos Aceitos</a></strong> foram anunciados! Parabéns aos autores! Instruções para a versão <i>camera ready</i> estão na mesma página. 
+#- date: 2025-10-24
+#  text: A <strong><a href="./program.html">Programação</a></strong> está disponível.
 #- date: 2025-11-05
 #  text: <strong>ERAD-SE 2025</strong> já começou!! Mas as <strong><a href="./registration.html">Inscrições</a></strong> ainda estão abertas!
-- date: 2025-11-08
-  text: <strong>ERAD-SE 2025</strong> chegou ao fim. Gostaríamos de expressar nossos sinceros agradecimentos a todos os participantes que contribuíram para o grande sucesso do evento. Os artigos e apresentações estão <strong><a href="./program.html">disponíveis</a></strong> e publicaremos algumas fotos em breve.
+#- date: 2025-11-08
+#  text: <strong>ERAD-SE 2025</strong> chegou ao fim. Gostaríamos de expressar nossos sinceros agradecimentos a todos os participantes que contribuíram para o grande sucesso do evento. Os artigos e apresentações estão <strong><a href="./program.html">disponíveis</a></strong> e publicaremos algumas fotos em breve.
