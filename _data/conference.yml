@@ -48,6 +48,11 @@ slideshow:
     description: ERAD-SE 2026 @ UFJF
     photographer_name: "Caique Cahon/UFJF"
     photographer_link: "" 
+  - id: 3
+    image_path: ./assets/images/slideshow/ufjf_ICE_1.jpg
+    description: Instituto de Ciências Exatas - UFJF
+    photographer_name: "Caique Cahon/UFJF"
+    photographer_link: "" 
 navbar:
   - id: 0
     label: Home
