@@ -13,7 +13,7 @@ full_title: XI Escola Regional de Alto Desempenho da Região Sudeste
 short_title: XI ERAD-SE 2026
 
 year: 2025
-date: 11 a 13 de Agosto de 2026
+date: 12 a 14 de Agosto de 2026
 
 location: Departamento de Ciência da Computação 
 location2: Universidade Federal de Juiz de Fora (UFJF)
@@ -39,50 +39,15 @@ slideshow:
     photographer_name: "Vinod Rebello"
     photographer_link: ""
   - id: 1
-    image_path: ./assets/images/slideshow/eraduff.jpg
-    description: ERAD-SE 2025 @ IC-UFF
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
+    image_path: ./assets/images/slideshow/ufjf_campus_1.jpg
+    description: ERAD-SE 2026 @ UFJF
+    photographer_name: "Caique Cahon/UFJF"
+    photographer_link: "" 
   - id: 2
-    image_path: ./assets/images/slideshow/pal-aws.jpg
-    description: Palestra AWS @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
-  - id: 3
-    image_path: ./assets/images/slideshow/pal-petro.jpg
-    description: Palestra PETROBRAS @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
-  - id: 4
-    image_path: ./assets/images/slideshow/mc-aws.jpg
-    description: Minicurso AWS @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 5
-    image_path: ./assets/images/slideshow/pal-viktor.jpg
-    description: Palestra de Prof. Viktor Prasanna @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
-  - id: 6
-    image_path: ./assets/images/slideshow/pal-alet.jpg
-    description: Palestra de Profa. Aleteia Araújo @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
-  - id: 7
-    image_path: ./assets/images/slideshow/pal-lexis.jpg
-    description: Palestra LexisNexis @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
-  - id: 8
-    image_path: ./assets/images/slideshow/pal-hpe.jpg
-    description: Palestra HPE @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
-  - id: 9
-    image_path: ./assets/images/slideshow/coffee.jpg
-    description: Coffee Break Discussions @ERAD-SE 2025
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""  
+    image_path: ./assets/images/slideshow/ufjf_campus_2.jpg
+    description: ERAD-SE 2026 @ UFJF
+    photographer_name: "Caique Cahon/UFJF"
+    photographer_link: "" 
 navbar:
   - id: 0
     label: Home
@@ -93,7 +58,6 @@ navbar:
     path: /organization.html
     visible: True
   - id: 2
-#    label: Chamada de Trabalhos
     label: Chamadas
     visible: False
     children:
@@ -171,7 +135,7 @@ deadlines:
 #    text: Submission deadline
 #    pass_due: True
 #    strike_through: False
-  - date: 2026-08-11
+  - date: 2026-08-12
     text: ERAD-SE 2026 começa!
 #    pass_due: False
 #    strike_through: False
