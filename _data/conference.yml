@@ -194,8 +194,8 @@ sponsors:
 #    logo_path: ./assets/images/sponsors/logo-cesar.png
 #    url: https://www.cesar.org.br/
 organizers:
-#  - logo_path: ./assets/images/sponsors/UFF.png
-#    url: https://www.ic.uff.br
+  - logo_path: ./assets/images/sponsors/ufjf.jpg
+    url: https://www.ufjf.br
 #  - logo_path: ./assets/images/sponsors/logo-ufrj2.png
 #    url: https://www.ic.ufrj.br
   # - logo_path: ./assets/images/sponsors/logo_ufjf_v4.png
