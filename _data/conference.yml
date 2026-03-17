@@ -198,9 +198,9 @@ organizers:
 #    url: https://www.ic.uff.br
 #  - logo_path: ./assets/images/sponsors/logo-ufrj2.png
 #    url: https://www.ic.ufrj.br
-  - logo_path: ./assets/images/sponsors/logo_ufjf_v4.png
-    url: https://www.ufjf.br
-  # - logo_path: ./assets/images/sponsors/uerj.gif
+  # - logo_path: ./assets/images/sponsors/logo_ufjf_v4.png
+  #   url: https://www.ufjf.br
+  # # - logo_path: ./assets/images/sponsors/uerj.gif
   #   url: https://www.uerj.br
   # - logo_path: ./assets/images/sponsors/UFRRJ-logo2.png
   #   url: https://www.ni.ufrrj.br/
