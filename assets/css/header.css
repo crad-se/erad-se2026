@@ -3,8 +3,7 @@
 /* linear-gradient(135deg, rgba(11, 37, 69, 0.7) 0%, rgba(27, 58, 107, 0.7) 30%, rgba(13, 79, 60, 0.7) 50%)*/
 /* Header para HOME com imagem */
 .page-header-home{
-  background-image: 
-  linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.2), url('../images/local/ufjf_aereo.jpg'))!important;
+  background-image: linear-gradient(135deg, rgba(11, 37, 69, 0.7) 0%, rgba(27, 58, 107, 0.7) 30%, rgba(13, 79, 60, 0.7) 50%), url('../images/local/ufjf_aereo.jpg') !important;
   background-size: cover;
   background-position:  bottom;
   background-attachment: fixed; 
