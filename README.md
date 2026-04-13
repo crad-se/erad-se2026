@@ -1,61 +1,105 @@
-# Jekyll-based Conference Template
+# ERAD/SE 2026 — Site oficial
 
-An academic conference website template built using Jekyll.
+Site da Escola Regional de Alto Desempenho da Região Sudeste, edição 2026.
 
-## Configuration
+Construído com [Jekyll](https://jekyllrb.com) + tema [Cayman](https://github.com/pages-themes/cayman),
+hospedado via GitHub Pages em `https://cradse.github.io/eradse2026`.
 
-Data Files under `_data` to configure all conference related information.
+---
 
-- `conference.yml`
-  - `full_title`: conference fullname e.g., First xxx conference on xxxx, 2017.
-  - `short_title`: conference shortname e.g., xxxx2017
-  - `description`: short description about the conference (< 160 char)
-  - `location`: conference location
-  - `logo_path`: conference logo
-  - `slideshow`: images slideshow
-  - `navbar`: navigation menu.
-  - `sponsors`: sponsor section.
-  - `deadlines`: important dates of deadlines, pass-due date will be automatically printed with del line.
-  - `social_media`: social media on the navbar. (current support facebook and twitter.)
-- `news.yml`: news section
-- `organization.yml`: committees
-  - `programm_chair`: program chair
-  - `organizing_committees`: organizing committees
-  - `steering_committees`: steering committees
-  - `technical_program_committees`: technical program committees
-- `venue.yml`: information about venue
-  - `address`: full address
-  - `accommodation`: accommodation details
-  - `direction`: path to image containing directions
-- `submission.yml`: submission instructions
-- `registration.yml`: registration information
+## Estrutura do projeto
 
-- Google Analytics: in `_config.yml`
+```
+eradse2026/
+├── Gemfile                    # dependências Ruby/Jekyll
+├── _config.yml                # configurações do site
+├── _layouts/
+│   └── default.html           # layout base (navbar + hero + footer)
+├── _includes/
+│   └── head-custom.html       # fontes Google, meta extras
+├── assets/
+│   └── css/
+│       └── custom.css         # customizações sobre o Cayman
+├── index.md                   # página inicial
+├── inscricoes.md
+├── programacao.md
+├── submissoes.md
+├── local.md
+├── organizacao.md
+└── edicoes-anteriores.md
+```
 
-## Deployment
+---
 
-### Manual
+## Como rodar localmente
 
-* Setup Ruby, RVM, Jeykyll, Bundler.
-  - Check installation instructions at [INSTALL.md](INSTALL.md).
-* Remove `.github/workflows/`
-* Change target of the symbolic `Gemfile` to `Gemfile.local`
-  ```
-  rm Gemfile
-  ln -s Gemfile.local Gemfile
-  ```
-* Adjust release path in `Makefile`
-* Test locally, `make serve`
-* Build and copy to publish location, `make publish`
-* Commit changes to the publish location
+### Pré-requisitos
 
-### GitHub Pages
+- Ruby ≥ 3.0 com Bundler: `gem install bundler`
 
-* Ensure that the repository is public and GitHub Pages are enabled and set to use GitHub Actions.
-* Create `.github/workflows`
-* Copy `workflows/release.yml` to `.github/workflows/release.yml`
-* Change target of the symbolic `Gemfile` to `Gemfile.github`
-  ```
-  rm Gemfile
-  ln -s Gemfile.github Gemfile
-  ```
+### Instalar e servir
+
+```bash
+git clone https://github.com/cradse/eradse2026.git
+cd eradse2026
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Acesse `http://localhost:4000/eradse2026` no navegador.
+
+---
+
+## Como publicar no GitHub Pages
+
+1. Crie o repositório `eradse2026` na organização `cradse` no GitHub
+2. Faça push de todos os arquivos para o branch `main`
+3. No repositório, vá em **Settings → Pages**
+4. Em **Source**, selecione **GitHub Actions**
+5. O GitHub detectará automaticamente o Jekyll e fará o deploy
+
+> Alternativamente, use o branch `gh-pages`:
+> ```bash
+> git checkout -b gh-pages
+> git push origin gh-pages
+> ```
+> E em Settings → Pages selecione o branch `gh-pages` como source.
+
+---
+
+## Como editar o conteúdo
+
+Cada página é um arquivo Markdown (`.md`) na raiz do projeto.
+O front matter (entre `---`) define título, subtítulo e permalink:
+
+```yaml
+---
+layout: default
+title: Minha Página
+subtitle: Descrição curta
+permalink: /minha-pagina
+---
+```
+
+Para adicionar logos de patrocinadores, coloque as imagens em `assets/img/` e referencie no
+`_layouts/default.html` na seção do footer, ou diretamente nas páginas com Markdown/HTML.
+
+---
+
+## Personalizar cores
+
+As variáveis CSS estão em `assets/css/custom.css`:
+
+```css
+:root {
+  --navy:   #0B2545;   /* cor principal do header/navbar */
+  --accent: #1D9E75;   /* verde de destaque */
+  --gold:   #BA7517;   /* dourado para destaques secundários */
+}
+```
+
+---
+
+## Licença
+
+Conteúdo © CRAD/SE / SBC. Tema Cayman © GitHub, MIT License.

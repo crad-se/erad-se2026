@@ -1,0 +1,224 @@
+/* ============================================================
+   ERAD/SE 2026 — Estilos para Página de Inscrições
+   ============================================================ */
+
+/* --- Imagem centralizada ------------------------------------ */
+.inscricoes-image {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem auto;
+  max-width: 100%;
+}
+
+.inscricoes-image img {
+  /*max-width: 500px;*/
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Wrapper com scroll horizontal ------------------------- */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Tabela de categorias de inscrição --------------------- */
+.inscricoes-categorias {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  min-width: 640px;
+}
+
+.inscricoes-categorias thead th {
+  background: var(--navy);
+  color: #fff;
+  padding: 0.9rem 1rem;
+  font-weight: 500;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  vertical-align: middle;
+}
+
+.inscricoes-categorias thead th small {
+  display: block;
+  font-weight: 400;
+  font-size: 0.78rem;
+  opacity: 0.75;
+  margin-top: 2px;
+}
+
+.inscricoes-categorias td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  vertical-align: middle;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.inscricoes-categorias .cat-label {
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.15);
+  width: 110px;
+}
+
+.inscricoes-categorias .cat-primary  { background: var(--accent); }
+.inscricoes-categorias .cat-secondary { background: var(--navy2); }
+
+.inscricoes-categorias .stripe { background: var(--light); }
+
+.inscricoes-categorias .price {
+  text-align: right;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  width: 130px;
+}
+
+/* --- Blockquote de atenção -------------------------------- */
+.inscricoes-alert {
+  background: rgba(29, 158, 117, 0.08);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin: 2rem 0;
+  color: var(--text);
+}
+
+.inscricoes-alert strong {
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.inscricoes-alert p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* --- Lista de passos --------------------------------------- */
+.inscricoes-steps {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.inscricoes-steps li {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.inscricoes-steps li:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(29, 158, 117, 0.1);
+}
+
+.inscricoes-steps li::before {
+  content: counter(step);
+  counter-increment: step;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.inscricoes-steps {
+  counter-reset: step;
+}
+
+.inscricoes-steps li p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* --- Card de contato --------------------------------------- */
+.inscricoes-contact {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.inscricoes-contact h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+}
+
+.inscricoes-contact p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+.inscricoes-contact a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.inscricoes-contact a:hover {
+  opacity: 0.8;
+}
+
+/* --- Responsivo -------------------------------------------- */
+@media (max-width: 680px) {
+  .inscricoes-image img {
+    max-width: 100%;
+  }
+
+  .inscricoes-table {
+    font-size: 0.85rem;
+  }
+
+  .inscricoes-table th,
+  .inscricoes-table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .inscricoes-steps li {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .inscricoes-steps li::before {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    order: -1;
+  }
+
+  .inscricoes-contact {
+    padding: 1.5rem;
+  }
+}

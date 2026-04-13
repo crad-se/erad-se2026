@@ -1,0 +1,165 @@
+
+/* --- Header (Hero) ---------------------------------------- */
+/* linear-gradient(135deg, rgba(11, 37, 69, 0.7) 0%, rgba(27, 58, 107, 0.7) 30%, rgba(13, 79, 60, 0.7) 50%)*/
+/* Header para HOME com imagem */
+.page-header-home{
+  background-image: 
+  linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.2), url('../images/local/ufjf_aereo.jpg'))!important;
+  background-size: cover;
+  background-position:  bottom;
+  background-attachment: fixed; 
+  padding: 5rem 2rem 4rem !important;
+  text-align: center;
+  position: relative;
+}
+
+/* Texto branco na HOME */
+.page-header-home .project-name {
+  color: #fff !important;
+}
+
+.page-header-home .project-tagline {
+  color: #fff !important;
+}
+
+.page-header-home .header-local {
+  color: #fff !important;
+}
+
+.page-header-home .page-name {
+  color: #fff !important;
+}
+
+.page-header-home .page-tagline {
+  color: #fff !important;
+}
+
+
+/* Header para outras páginas - gradiente apenas */
+.page-header {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 60%, #0d4f3c 100%) !important;
+  padding: 5rem 2rem 3.5rem !important;
+  text-align: center;
+  position: relative;
+}
+
+.logo_sbc_anchor {
+  position: absolute;
+  text-decoration: none;
+  top: 5rem;
+  left: 10rem;
+  z-index: 10;
+}
+
+.logo_sbc {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+  opacity: 0.8;
+}
+
+.logo_sbc_anchor span {
+  color: white;
+  margin-bottom: 2px;
+  display: block;
+  opacity: 0.8;
+}
+
+.logo_eradse_anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo_eradse_anchor span {
+  color: black;
+  padding: 0 0 1.5rem 2.5rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .logo_eradse {
+    width: 70%;
+  }
+
+  .logo_sbc {
+    max-width: 15%;
+  }
+
+  .logo_sbc_anchor span {
+    font-size: small;
+  }
+}
+
+@media (min-width: 769px) {
+  .logo_eradse {
+    max-width: 35%;
+  }
+
+  .logo_sbc {
+    max-height: 140px;
+  }
+
+  .logo_sbc_anchor span {
+    font-size: larger;
+  }
+}
+
+
+
+.page-header-inner {
+  padding: 3rem 2rem 2.5rem !important;
+}
+
+.header-inner { max-width: 800px; margin: 0 auto; }
+
+.header-badge {
+  display: inline-block;
+  background: rgba(29,158,117,0.25);
+  border: 1px solid rgba(29,158,117,0.5);
+  color: rgba(255,255,255,0.9);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 1.25rem;
+}
+
+.project-name {
+  font-family: 'DM Serif Display', serif !important;
+  font-size: clamp(2.5rem, 6vw, 3.8rem) !important;
+  font-weight: 400 !important;
+  line-height: 1.1 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.project-tagline {
+  font-size: 1.05rem !important;
+  font-weight: 300 !important;
+  opacity: 0.82 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.page-name {
+  font-family: 'DM Serif Display', serif !important;
+  font-size: clamp(2.5rem, 6vw, 3.8rem) !important;
+  font-weight: 400 !important;
+  line-height: 1.1 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.page-tagline {
+  font-size: 1.05rem !important;
+  font-weight: 300 !important;
+  opacity: 0.82 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.header-local {
+  font-size: 0.95rem;
+  opacity: 0.65;
+  margin-bottom: 2rem;
+}
+
+.header-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }

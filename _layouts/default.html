@@ -1,30 +1,148 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " pt-br " }}">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include head.html %}
+    {% seo %}
 
-<body>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/navbar.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/inscricoes.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    {% include head-custom.html %}
+  </head>
 
-    <div class="container">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-        <!-- <div class="col-12 col-lg-11 offset-lg-0 col-xl-11 offset-xl-0"></div> -->
-        <!-- <div class="col-12"></div> -->
-            {% include header.html %}
-            {{ content }}
-            {% include footer.html %}
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a class="nav-brand" href="{{ '/' | relative_url }}">
+          <span class="nav-brand-title">{{ site.event.sigla }}</span>
+          <span class="nav-brand-sub">Juiz de Fora-MG </span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="{{ '/inscricoes' | relative_url }}"{% if page.url == '/inscricoes.html' %} class="active"{% endif %}>Inscrições</a></li>
+          <li class="nav-dropdown">
+            <a href="{{ '/programacao' | relative_url }}"{% if page.url == '/programacao.html' %} class="active"{% endif %}>Programação ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/programacao' | relative_url }}#cronograma">Cronograma</a></li>
+              <li><a href="{{ '/programacao' | relative_url }}#palestras">Palestras</a></li>
+              <li><a href="{{ '/programacao' | relative_url }}#minicursos">Minicursos</a></li>
+              <li><a href="{{ '/programacao' | relative_url }}#forum">Fórum IC/PG</a></li>
+              <li><a href="{{ '/programacao' | relative_url }}#maratona">Maratona</a></li>
+            </ul>
+          </li>
+          <li class="nav-dropdown">
+            <a href="{{ '/submissoes' | relative_url }}"{% if page.url == '/submissoes.html' %} class="active"{% endif %}>Submissões ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/interesses' | relative_url }}">Tópicos de Interesse</a></li>
+              <li><a href="{{ '/submissoes' | relative_url }}">Chamada de Trabalhos</a></li>
+            </ul>
+          </li>
+          <li class="nav-dropdown">
+            <a href="{{ '/local' | relative_url }}"{% if page.url == '/local.html' %} class="active"{% endif %}>Local ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/local' | relative_url }}#juiz-de-fora">Conheça Juiz de Fora</a></li>
+              <li><a href="{{ '/local' | relative_url }}#como-chegar">Como Chegar</a></li>
+              <li><a href="{{ '/local' | relative_url }}#hospedagem">Hospedagem</a></li>
+              <li><a href="{{ '/local' | relative_url }}#mapa">Mapa UFJF</a></li>
+            </ul>
+          </li>
+          <li><a href="{{ '/organizacao' | relative_url }}"{% if page.url == '/organizacao.html' %} class="active"{% endif %}>Organização</a></li>
+          <li><a href="{{ '/edicoes-anteriores' | relative_url }}"{% if page.url == '/edicoes-anteriores.html' %} class="active"{% endif %}>Edições Anteriores</a></li>
+          <!-- <li><a href="{{ '/inscricoes' | relative_url }}" class="nav-btn-inscricao">Inscreva-se</a></li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO (somente na index) -->
+    {% if page.is_home %}
+    <header class="page-header-home" role="banner">
+      <a class="logo_sbc_anchor" href="https://www.sbc.org.br/" target="_blank">
+        <span>Realização</span>
+        <img class="logo_sbc" src="{{ '/assets/images/local/SBC.svg' | relative_url }}" alt="logo sbc" />
+      </a>
+      <div class="header-inner">
+        <!-- <p class="header-badge">Escola Regional de Alto Desempenho</p> -->
+        <h1 class="project-name" >{{ site.event.sigla }}</h1>
+        <h2 class="project-tagline">{{ site.description }}</h2>
+        <p class="header-local">&#128205; {{ site.event.local }} &nbsp;·&nbsp; {{ site.event.datas }}</p>
+        <!-- <div class="header-actions">
+          <a href="{{ '/inscricoes' | relative_url }}" class="btn">Fazer Inscrição</a>
+          <a href="{{ '/submissoes' | relative_url }}" class="btn btn-outline">Submeter Trabalho</a>
+        </div> -->
+      </div>
+    </header>
+    {% else %}
+    <header class="page-header page-header-inner" role="banner">
+      <div class="header-inner">
+        <h1 class="project-name">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <h2 class="project-tagline">{{ page.subtitle }}</h2>
+        {% endif %}
+      </div>
+    </header>
+    {% endif %}
+
+    <!-- CONTEÚDO -->
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-org">
+          <div class="footer-group">
+            <h4>Realização</h4>
+            <div class="footer-logos">
+              <span class="footer-logo-pill">CRAD/SE</span>
+              <a href="https://www.sbc.org.br" target="_blank" class="footer-logo-pill">SBC</a>
+            </div>
+          </div>
+          <div class="footer-group">
+            <h4>Organização Local</h4>
+            <div class="footer-logos">
+              <a href="https://www.ufjf.br" target="_blank" class="footer-logo-pill featured">UFJF</a>
+            </div>
+          </div>
+          <div class="footer-group">
+            <h4>Fomento</h4>
+            <div class="footer-logos">
+              <!-- <a href="https://www.gov.br/capes" target="_blank" class="footer-logo-pill">CAPES</a> -->
+              <a href="https://fapemig.br" target="_blank" class="footer-logo-pill">FAPEMIG</a>
+              <!-- <a href="https://www.cnpq.br" target="_blank" class="footer-logo-pill">CNPq</a> -->
+            </div>
+          </div>
         </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+        <p class="footer-copy">
+          ERAD/SE 2026 — {{ site.event.nome_completo }}<br>
+          {{ site.event.datas }} · {{ site.event.local }}
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      document.getElementById('navToggle').addEventListener('click', function() {
+        document.getElementById('navMenu').classList.toggle('open');
+      });
+      // Dropdown on touch
+      document.querySelectorAll('.nav-dropdown > a').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            this.parentElement.classList.toggle('open');
+          }
+        });
+      });
     </script>
 
-</body>
-
+  </body>
 </html>

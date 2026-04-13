@@ -1,0 +1,29 @@
+show_inscricao: False
+prazo_inscricao: "14/08/2026"
+valores:
+  grad_sbc:                      "15,00"
+  grad_sbc_vencida:              "50,00"
+  grad_nao_sbc_combo:            "50,00"
+  grad_nao_sbc:                  "52,00"
+
+  pos_sbc:                      "45,00"
+  pos_sbc_vencida:              "187,00"
+  pos_nao_sbc_combo:            "187,00"
+  pos_nao_sbc:                  "192,00"
+
+  prof_mun_estadual_sbc:                  "45,00"
+  prof_mun_estadual_sbc_vencida:          "187,00"
+  prof_mun_estadual_nao_sbc_combo:        "187,00"
+  prof_mun_estadual_nao_sbc:              "192,00"
+
+  prof_ed_fed_sbc:                  "45,00"
+  prof_ed_fed_sbc_vencida:         "433,00"
+  prof_ed_fed_nao_sbc_combo:       "433,00"
+  prof_ed_fed_nao_sbc:             "438,00"
+
+  profissional_sbc:             "75,00"
+  profissional_sbc_vencida:     "469,00"
+  profissional_nao_sbc_combo:   "469,00"
+  profissional_nao_sbc:         "477,00"
+
+

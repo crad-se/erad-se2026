@@ -1,0 +1,43 @@
+description: >
+  ERAD-SE tem como objetivo estimular a pesquisa e o desenvolvimento nas áreas de Arquitetura de Computadores, Processamento de Alto Desempenho, Sistemas Distribuídos 
+  e a aplicação de conceitos e técnicas avançadas em diversas áreas do conhecimento. A trilha pretende oferecer uma visão das tecnologias recentes nestas 
+  áreas, considerando os tópicos do interesse do evento, mas não se limitam a:
+submission: ./submission.html
+areas:
+- category: "Projeto e Arquitetura"
+  topics:
+    - Arquitetura de Computadores e Processadores
+    - Arquiteturas Dedicadas e Específicas (GPUs, FPGAs, e outras)
+    - Arquiteturas Avançadas, Dedicadas e Específicas
+    - Computação de Alto Desempenho para Inteligência Artificial
+    - Computação de Alto Desempenho Sustentável
+    - Computação em Nuvem, Grade, Aglomerado (Cluster) e Peer-to-Peer
+    - Computação Heterogênea
+    - Computação Móvel de Alto Desempenho
+    - Computação Móvel, Pervasiva e Embarcada
+    - Computação Quântica e Alto Desempenho
+    - High Performance Storage Systems
+    - Memória Compartilhada Distribuída
+    - Redes e Protocolos de Comunicação de Alto Desempenho
+- category: "Aplicações e Algoritmos Paralelos e Distribuídos"
+  topics:
+    - Aplicações de Computação de Alto Desempenho em Agricultura, Biologia, Ciência, Engenharia, Física, Matemática, Medicina, Mercado Financeiro, Nanociências, Óleo e Gás, Química e outras áreas
+    - Aprendizado de Máquina e Computação de Alto Desempenho
+    - Aplicações de Big Data
+    - Ciência de Dados e Computação de Alto Desempenho
+    - Inteligência Artificial para CAD
+- category: "Software Básico para Computação Paralela e Distribuída"
+  topics:
+    - Escalonamento e Balanceamento de Carga
+    - Sistemas de Arquivos e Entrada e Saída para CAD
+    - Sistemas de Banco de Dados Paralelos e Distribuídos
+    - Sistemas de Memória para CAD
+    - Sistemas Operacionais
+    - Tolerância a Falhas
+- category: "Ferramentas e Avaliação"
+  topics:
+    - Avaliação, Medição e Predição de Desempenho
+    - Linguagens, Compiladores e Ferramentas de Computação Paralela e Distribuída
+    - Técnicas de Modelagem e Simulação de Arquiteturas e Sistemas Paralelos
+    - Técnicas e Métodos de Extração de Paralelismo
+    - Validação, Verificação e Teste de Aplicações Paralelas
