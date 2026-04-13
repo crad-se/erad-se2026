@@ -19,15 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Build Jekyll for GitHub Pages
-      uses: actions/jekyll-build-pages@v1.0.7
+      uses: actions/jekyll-build-pages@v1
       with:
           source: ./
           destination: ./_site
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
 
   # Deploy job
   deploy:
@@ -43,4 +43,4 @@ jobs:
     steps:
     - name: Deploy GitHub Pages site
       id: deployment
-      uses: actions/deploy-pages@v1.2.4
+      uses: actions/deploy-pages@v4
