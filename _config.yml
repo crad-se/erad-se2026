@@ -1,7 +1,7 @@
 title: "XI ERAD/SE 2026"
 description: "Escola Regional de Alto Desempenho da Região Sudeste"
-baseurl: "/eradse2026"
-url: "https://cradse.github.io"
+baseurl: "/erad-se2026"
+url: "https://crad-se.github.io"
 
 remote_theme: pages-themes/cayman@v0.2.0
 
