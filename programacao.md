@@ -36,19 +36,6 @@ As palestras convidadas e industriais serão divulgadas em breve.
 
 ---
 
-### Maratona de Programação Paralela {#maratona}
-
-A Maratona de Programação Paralela é uma das atividades tradicionais das Escolas Regionais de Alto Desempenho.
-Mais informações em breve.
-
----
-<!-- 
-### Workshop de Mulheres em HPC — WHPC {#whpc}
-
-O WHPC é um espaço dedicado à discussão sobre a participação e contribuições de mulheres na área de HPC.
-Mais informações em breve.
-
---- -->
 
 ### Fórum de Iniciação Científica e Pós-Graduação {#forum}
 
@@ -56,3 +43,15 @@ O Fórum IC/PG é o principal espaço de divulgação dos trabalhos submetidos a
 com apresentações orais e sessões de pôsteres.
 
 Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenLib.
+
+### Trabalhos de TCC e Dissertações {#tcc}
+
+O principal objetivo do Concurso de TCCs e Dissertações é disseminar os Trabalhos de Conclusão de Cursos de Graduação, e Dissertações de Mestrado, voltados para a área de Computação de Alto Desempenho.
+
+
+### Maratona de Programação Paralela {#maratona}
+
+A Maratona de Programação Paralela é uma das atividades tradicionais das Escolas Regionais de Alto Desempenho.
+Mais informações em breve.
+
+---

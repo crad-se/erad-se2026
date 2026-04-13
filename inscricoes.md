@@ -147,6 +147,7 @@ Associar-se à SBC é uma forma de tornar a SBC ainda mais forte para representa
 
 
 
+{% if site.email %}
 ### Dúvidas
-
-Entre em contato com a organização pelo e-mail: **contato@eradse2026.org**
+Entre em contato com a organização pelo e-mail: **{{ site.email }}**
+{% endif %}

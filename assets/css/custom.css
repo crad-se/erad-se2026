@@ -528,7 +528,7 @@ h1, h2 {
 }
  
 .area-card li {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: var(--muted);
   padding: 4px 0 4px 0.9rem;
   border-bottom: 0.5px solid var(--border);

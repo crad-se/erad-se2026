@@ -52,24 +52,12 @@ permalink: /organizacao
 
 </div>
 
----
-
-## Realização
-
-- **SBC** — Sociedade Brasileira de Computação · [sbc.org.br](https://www.sbc.org.br){:target="_blank"}
-- **CRAD/SE** — Comissão Regional de Alto Desempenho da Região Sudeste
-
-## Organização local
-- **DCC/UFJF** — Departamento de Ciência da Computação da Universidade Federal de Juiz de Fora · [dcc.ufjf.br](https://www.dcc.ufjf.br){:target="_blank"}
-
-## Fomento
-
-<!-- - **CAPES** · [capes.gov.br](https://capes.gov.br){:target="_blank"} -->
-- **FAPEMIG** · [fapemig.br](https://fapemig.br){:target="_blank"}
-<!-- - **CNPq** · [cnpq.br](https://www.cnpq.br){:target="_blank"} -->
-
----
-
 ## Patrocinadores
 
-*Informações sobre patrocínio disponíveis em breve. Entre em contato: **contato@eradse2026.org***
+*Informações sobre patrocínio disponíveis em breve*. 
+
+
+
+{% if site.email %}
+Entre em contato com a organização pelo e-mail: **{{ site.email }}**
+{% endif %}
