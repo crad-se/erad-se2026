@@ -7,7 +7,9 @@ permalink: /inscricoes
 
 
 <div class="inscricoes-image">
-  <img src="{{ '/assets/images/local/banner-inscricoes-combo.png' | relative_url }}" alt="Banner de Inscrições ERAD/SE 2026">
+  <a href="https://www.sbc.org.br/" target="_blank">
+    <img src="{{ '/assets/images/local/banner-inscricoes-combo.png' | relative_url }}" alt="Banner de Inscrições ERAD/SE 2026">
+  </a>
 </div>
 
 
@@ -149,5 +151,5 @@ Associar-se à SBC é uma forma de tornar a SBC ainda mais forte para representa
 
 {% if site.email %}
 ### Dúvidas
-Entre em contato com a organização pelo e-mail: **{{ site.email }}**
+Entre em contato com a organização pelo e-mail: <strong>{{ site.email }}</strong>
 {% endif %}

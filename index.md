@@ -102,18 +102,25 @@ de {{ site.event.datas }}, nas instalações da {{ site.event.instituicao }}.
 ## Sobre a SBC
 
 <div class="sbc-box">
-  <p>A <strong>Sociedade Brasileira de Computação – SBC</strong> é uma Sociedade Científica sem fins
-  lucrativos, fundada em julho de 1978, que reúne estudantes, professores, profissionais, pesquisadores
-  e entusiastas da área da Computação e Informática de todo o país.</p>
-  <p>A SBC tem como função fomentar o acesso à informação e cultura por meio da informática, promover
-  a inclusão digital, incentivar a pesquisa e o ensino em computação no Brasil, e contribuir para a
-  formação do profissional da computação com responsabilidade social.</p>
-  <p>Você está acessando o site de uma das <strong>Comissões Especiais (CE) da SBC</strong>.
-  Associados vigentes podem se inscrever nas
-  <a href="https://www.sbc.org.br/403-comissoes-especiais" target="_blank">listas de e-mail das Comissões Especiais</a>.
-  Se você ainda não é associado,
-  <a href="https://centraldesistemas.sbc.org.br/mom" target="_blank">clique aqui</a>
-  e venha fazer parte da maior sociedade científica em Computação da América Latina!</p>
+  <div class="sbc-box-text">
+    <p>A <strong>Sociedade Brasileira de Computação – SBC</strong> é uma Sociedade Científica sem fins
+    lucrativos, fundada em julho de 1978, que reúne estudantes, professores, profissionais, pesquisadores
+    e entusiastas da área da Computação e Informática de todo o país.</p>
+    <p>A SBC tem como função fomentar o acesso à informação e cultura por meio da informática, promover
+    a inclusão digital, incentivar a pesquisa e o ensino em computação no Brasil, e contribuir para a
+    formação do profissional da computação com responsabilidade social.</p>
+    <p>Você está acessando o site de uma das <strong>Comissões Especiais (CE) da SBC</strong>.
+    Associados vigentes podem se inscrever nas
+    <a href="https://www.sbc.org.br/403-comissoes-especiais" target="_blank">listas de e-mail das Comissões Especiais</a>.
+    Se você ainda não é associado,
+    <a href="https://centraldesistemas.sbc.org.br/mom" target="_blank">clique aqui</a>
+    e venha fazer parte da maior sociedade científica em Computação da América Latina!</p>
+  </div>
+  <div class="sbc-box-image">
+    <a href="https://www.sbc.org.br" target="_blank">
+      <img src="{{ '/assets/images/local/SBC.svg' | relative_url }}" alt="Logo SBC">
+    </a>
+  </div>
 </div>
 
 ## Patrocinadores

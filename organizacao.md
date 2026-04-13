@@ -59,5 +59,5 @@ permalink: /organizacao
 
 
 {% if site.email %}
-Entre em contato com a organização pelo e-mail: **{{ site.email }}**
+Entre em contato com a organização pelo e-mail: <strong> {{ site.email }}</strong>
 {% endif %}

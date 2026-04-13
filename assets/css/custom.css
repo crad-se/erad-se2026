@@ -222,6 +222,33 @@ h1, h2 {
   color: var(--muted);
   line-height: 1.8;
   margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sbc-box-text {
+  flex: 1;
+}
+
+.sbc-box-image {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sbc-box-image img {
+  width: 160px;
+}
+
+@media (max-width: 640px) {
+  .sbc-box {
+    flex-direction: column;
+  }
+  .sbc-box-image img {
+    width: 120px;
+  }
 }
 
 /* --- Footer ----------------------------------------------- */
