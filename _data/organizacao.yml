@@ -14,114 +14,114 @@
     org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
     homepage: ""
 
-- title: Coordenação do Comitê de Programa dos Fóruns
-  column: 1
-  members:
-  - name: Ricardo Ferreira
-    post: ""
-    org: Universidade Federal de Viçosa (UFV), Viçosa - MG
-    homepage: ""
+# - title: Coordenação do Comitê de Programa dos Fóruns
+#   column: 1
+#   members:
+#   - name: Ricardo Ferreira
+#     post: ""
+#     org: Universidade Federal de Viçosa (UFV), Viçosa - MG
+#     homepage: ""
 
-- title: Coordenação do Concurso de TCCs e Dissertações
-  column: 1
-  members:
-  - name: Alexandre Sena
-    post: ""
-    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Aline Nascimento
-    post: ""
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
+# - title: Coordenação do Concurso de TCCs e Dissertações
+#   column: 1
+#   members:
+#   - name: Alexandre Sena
+#     post: ""
+#     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Aline Nascimento
+#     post: ""
+#     org: Universidade Federal Fluminense (UFF), Niterói - RJ
+#     homepage: ""
 
-- title: Coordenação da Maratona de Programação Paralela
-  column: 1
-  members:
-  - name: Marcelo Zamith
-    post: ""
-    org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
-    homepage: ""
+# - title: Coordenação da Maratona de Programação Paralela
+#   column: 1
+#   members:
+#   - name: Marcelo Zamith
+#     post: ""
+#     org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
+#     homepage: ""
 
-- title: Coordenação dos Minicursos
-  column: 1
-  members:
-  - name: Rafaela Brum
-    post: ""
-    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-    homepage: ""
+# - title: Coordenação dos Minicursos
+#   column: 1
+#   members:
+#   - name: Rafaela Brum
+#     post: ""
+#     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
+#     homepage: ""
 
-- title: Comitê Científico e Técnico
-  column: 2
-  members:
-  - name: Anderson Fernandes Pereira dos Santos
-    org: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Antonio Tadeu Azevedo Gomes
-    org: Laboratório de Computação Científica (LNCC), Petrópolis - RJ
-    homepage: ""
-  - name: Carla Osthoff
-    org: Laboratório de Computação Científica (LNCC), Petrópolis - RJ
-    homepage: ""
-  - name: Cristiana Bentes
-    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Daniel de Oliveira
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
-  - name: Diego N. Brandão
-    org: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Esteban W. Clua
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
-  - name: Fernanda Passos
-    org: Instituto Superior de Engenharia de Lisboa (ISEL), Lisboa, Portugal
-    homepage: ""
-  - name: Gustavo Silva Semaan
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
-  - name: Henrique Cota de Freitas
-    org: Pontifícia Univ. Católica de Minas Gerais (PUC Minas), Belo Horizonte - MG
-    homepage: ""
-  - name: Joubert de Castro Lima
-    org: Universidade Federal de Ouro Preto (UFOP), Ouro Preto - MG
-    homepage: ""
-  - name: Juliana Nascente
-    org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
-    homepage: ""
-  - name: Lúcia Drummond
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
-  - name: Maicon Melo Alves
-    org: Petróleo Brasileiro S.A. (Petrobras), Campos dos Goytacazes - RJ
-    homepage: ""
-  - name: Marcos Tomazzoli Leipnitz
-    org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Maria Clicia Stelling de Castro
-    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Matheus Alcântara Souza
-    org: Pontifícia Univ. Católica de Minas Gerais (PUC Minas), Belo Horizonte - MG
-    homepage: ""
-  - name: Rafaela Brum
-    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Raquel Coelho Gomes Pinto
-    org: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Roberto Pinto Souto
-    org: Laboratório de Computação Científica (LNCC), Petrópolis - RJ
-    homepage: ""
-  - name: Silvana Rossetto
-    org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
-    homepage: ""
-  - name: Ubiratam De Paula
-    org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
-    homepage: ""
-  - name: Vinícius Dias
-    org: Universidade Federal de Lavras (UFLA), Lavras - MG
-    homepage: ""
+# - title: Comitê Científico e Técnico
+#   column: 2
+#   members:
+#   - name: Anderson Fernandes Pereira dos Santos
+#     org: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Antonio Tadeu Azevedo Gomes
+#     org: Laboratório de Computação Científica (LNCC), Petrópolis - RJ
+#     homepage: ""
+#   - name: Carla Osthoff
+#     org: Laboratório de Computação Científica (LNCC), Petrópolis - RJ
+#     homepage: ""
+#   - name: Cristiana Bentes
+#     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Daniel de Oliveira
+#     org: Universidade Federal Fluminense (UFF), Niterói - RJ
+#     homepage: ""
+#   - name: Diego N. Brandão
+#     org: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Esteban W. Clua
+#     org: Universidade Federal Fluminense (UFF), Niterói - RJ
+#     homepage: ""
+#   - name: Fernanda Passos
+#     org: Instituto Superior de Engenharia de Lisboa (ISEL), Lisboa, Portugal
+#     homepage: ""
+#   - name: Gustavo Silva Semaan
+#     org: Universidade Federal Fluminense (UFF), Niterói - RJ
+#     homepage: ""
+#   - name: Henrique Cota de Freitas
+#     org: Pontifícia Univ. Católica de Minas Gerais (PUC Minas), Belo Horizonte - MG
+#     homepage: ""
+#   - name: Joubert de Castro Lima
+#     org: Universidade Federal de Ouro Preto (UFOP), Ouro Preto - MG
+#     homepage: ""
+#   - name: Juliana Nascente
+#     org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
+#     homepage: ""
+#   - name: Lúcia Drummond
+#     org: Universidade Federal Fluminense (UFF), Niterói - RJ
+#     homepage: ""
+#   - name: Maicon Melo Alves
+#     org: Petróleo Brasileiro S.A. (Petrobras), Campos dos Goytacazes - RJ
+#     homepage: ""
+#   - name: Marcos Tomazzoli Leipnitz
+#     org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Maria Clicia Stelling de Castro
+#     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Matheus Alcântara Souza
+#     org: Pontifícia Univ. Católica de Minas Gerais (PUC Minas), Belo Horizonte - MG
+#     homepage: ""
+#   - name: Rafaela Brum
+#     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Raquel Coelho Gomes Pinto
+#     org: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Roberto Pinto Souto
+#     org: Laboratório de Computação Científica (LNCC), Petrópolis - RJ
+#     homepage: ""
+#   - name: Silvana Rossetto
+#     org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
+#     homepage: ""
+#   - name: Ubiratam De Paula
+#     org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
+#     homepage: ""
+#   - name: Vinícius Dias
+#     org: Universidade Federal de Lavras (UFLA), Lavras - MG
+#     homepage: ""
 
 - title: Webmaster
   column: 1
