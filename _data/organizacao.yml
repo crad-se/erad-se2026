@@ -14,24 +14,24 @@
     org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
     homepage: ""
 
-# - title: Coordenação do Comitê de Programa dos Fóruns
-#   column: 1
-#   members:
-#   - name: Ricardo Ferreira
-#     post: ""
-#     org: Universidade Federal de Viçosa (UFV), Viçosa - MG
-#     homepage: ""
+- title: Coordenação do Comitê de Programa dos Fóruns
+  column: 1
+  members:
+  - name: Ricardo Ferreira
+    post: ""
+    org: Universidade Federal de Viçosa (UFV), Viçosa - MG
+    homepage: ""
 
-# - title: Coordenação do Concurso de TCCs e Dissertações
-#   column: 1
-#   members:
+- title: Coordenação do Concurso de TCCs e Dissertações
+  column: 1
+  members:
+  - name: Cristina Boeres
+    post: ""
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
+    homepage: ""
 #   - name: Alexandre Sena
 #     post: ""
 #     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-#     homepage: ""
-#   - name: Aline Nascimento
-#     post: ""
-#     org: Universidade Federal Fluminense (UFF), Niterói - RJ
 #     homepage: ""
 
 # - title: Coordenação da Maratona de Programação Paralela
@@ -42,13 +42,13 @@
 #     org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
 #     homepage: ""
 
-# - title: Coordenação dos Minicursos
-#   column: 1
-#   members:
-#   - name: Rafaela Brum
-#     post: ""
-#     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
-#     homepage: ""
+- title: Coordenação dos Minicursos
+  column: 1
+  members:
+  - name: Rafaela Brum
+    post: ""
+    org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
+    homepage: ""
 
 # - title: Comitê Científico e Técnico
 #   column: 2
