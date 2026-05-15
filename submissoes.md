@@ -79,7 +79,7 @@ Propostas de minicursos são bem-vindas e podem ter caráter fundamentalmente te
 
 Ao preparar sua submissão, siga o formato da SBC (SBC-Template), que não deve exceder 4 páginas incluindo texto, figuras e referências. A submissão deve incluir o título, a descrição, os tópicos abordados no minicurso e os nomes e afiliações de todos os autores, além da duração prevista (podendo ser de até 4 horas).
 
-A proposta deve ser enviada para Rafaela Brum (rafaelabrum@eng.uerj.br). Após o envio, aguardar um e-mail de confirmação de submissão em até 72 horas.
+A proposta deve ser enviada para Rafaela Brum **(rafaelabrum@eng.uerj.br)**. Após o envio, aguardar um e-mail de confirmação de submissão em até 72 horas.
 
 **Datas Importantes:**
 - Submissão da proposta: 15/06/2026
