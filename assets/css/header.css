@@ -3,9 +3,10 @@
 /* linear-gradient(135deg, rgba(11, 37, 69, 0.7) 0%, rgba(27, 58, 107, 0.7) 30%, rgba(13, 79, 60, 0.7) 50%)*/
 /* Header para HOME com imagem */
 .page-header-home{
-  background-image: linear-gradient(135deg, rgba(11, 37, 69, 0.4) 10%, rgba(27, 58, 107, 0.5) 20%, rgba(13, 79, 60, 0.3) 60%), url('../images/local/ufjf_aereo.jpg') !important;
-  background-size: cover;
-  background-position:  bottom;
+  /* background-image: linear-gradient(135deg, rgba(11, 37, 69, 0.4) 10%, rgba(27, 58, 107, 0.5) 20%, rgba(13, 79, 60, 0.3) 60%), url('../images/local/ufjf_aereo.jpg') !important; */
+    background-image: linear-gradient(135deg, rgba(11, 37, 69, 0.4) 10%, rgba(27, 58, 107, 0.5) 20%, rgba(13, 79, 60, 0.3) 50%), url('../images/local/ufjf_ice_draw_6.png') !important;
+  background-size: cover !important;
+  background-position:  bottom center;  
   background-attachment: fixed; 
   padding: 5rem 2rem 4rem !important;
   text-align: center;
@@ -76,12 +77,23 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
+  .page-header-home {
+    padding: 1rem 2rem 3rem !important;
+  }
+
   .logo_eradse {
     width: 70%;
   }
 
   .logo_sbc {
     max-width: 15%;
+  }
+
+  .logo_sbc_anchor {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-bottom: 1rem;
   }
 
   .logo_sbc_anchor span {
@@ -162,3 +174,19 @@
 }
 
 .header-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+/* ERAD Header Logo - dimensões diferentes da SBC */
+.erad-header-logo {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width: 768px) {
+  .erad-header-logo {
+    width: 80%;
+  }
+}

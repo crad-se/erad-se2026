@@ -80,6 +80,12 @@ h1, h2 {
   margin-top: 6px;
 }
 
+.main-content h3 {
+  font-family: 'DM Serif Display', serif;
+  color: #ee5100;
+  font-weight: 400;
+}
+
 .main-content p { color: var(--muted); line-height: 1.8; }
 
 .main-content strong { color: var(--text); }
