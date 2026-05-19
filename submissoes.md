@@ -29,7 +29,7 @@ A ERAD/SE 2026 convida pesquisadores, estudantes e profissionais a submeterem tr
     <tr>
       <td>Submissão de artigos (IC e PG)</td>
       <td>15 de junho de 2026</td>
-      <td><span class="badge badge-gold">Em breve</span></td>
+      <td><span class="badge badge-gold">Aberto</span></td>
     </tr>
     <tr>
       <td>Notificação de aceitação</td>
@@ -52,7 +52,7 @@ Destinada a estudantes de graduação que desenvolvem pesquisa na área de HPC.
 Os trabalhos devem apresentar resultados preliminares ou consolidados de projetos de IC.
 
 - **Formato:** artigo curto, até 4 páginas (formato SBC)
-- **Sistema:** [JEMS – SBC](https://jems.sbc.org.br)
+- **Sistema:** [JEMS – SBC](https://jems3.sbc.org.br/events/654)
 
 #### Pós-Graduação (PG)
 
@@ -60,7 +60,7 @@ Destinada a estudantes de mestrado e doutorado.
 Os trabalhos devem apresentar contribuições originais em andamento ou concluídas.
 
 - **Formato:** artigo completo, até 5 páginas (formato SBC)
-- **Sistema:** [JEMS – SBC](https://jems.sbc.org.br)
+- **Sistema:** [JEMS – SBC](https://jems3.sbc.org.br/events/654)
 
 ####  Concurso de TCC e Dissertações
 
@@ -69,7 +69,7 @@ O principal objetivo do Concurso de TCCs e Dissertações é disseminar os Traba
 Os TCCs e Dissertações defendidos e homologados a partir de janeiro de 2025 até a data limite de submissão deste concurso estão convidadas a participar, através de um artigo que resume o respectivo trabalho, além do texto completo do TCC ou dissertação e a respectiva ata de defesa.
 
 - **Formato:** artigo completo, até 6 páginas (formato SBC)
-- **Sistema:** [JEMS – SBC](https://jems.sbc.org.br)
+- **Sistema:** [JEMS – SBC](https://jems3.sbc.org.br/events/654)
 
 #### Minicursos
 
@@ -95,4 +95,4 @@ Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenL
 
 . **Importante:** Os artigos enviados não devem ter sido publicados anteriormente nem estar sob revisão por outro workshop, conferência ou periódico.
 
-> **Submissões:** acesse o sistema [JEMS](https://jems.sbc.org.br) (link ativo a partir de 19/05/2026)
+> **Submissões:** acesse o sistema [JEMS](https://jems3.sbc.org.br/events/654)
