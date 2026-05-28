@@ -147,6 +147,19 @@ Associar-se à SBC é uma forma de tornar a SBC ainda mais forte para representa
 
 {% endif %}
 
+### Formas de pagamento
+O pagamento de inscrições poderá ser realizado por meio de boleto bancário, cartão de crédito, débito em conta do Banco do Brasil, nota de empenho ou faturamento. As inscrições podem ser feitas até o dia **14 de agosto**, porém os pagamentos por débito e boleto serão aceitos até o dia **10 de agosto de 2026**.
+
+Para inscrições por nota de empenho e faturamento, o participante deverá acessar o sistema de inscrições e realizar a inscrição, selecionando a forma de pagamento "nota de empenho" ou "faturamento" e clicar em "pagar". O sistema fornecerá as informações necessárias para que a inscrição seja confirmada.
+
+### Política de cancelamento
+De acordo com as políticas da SBC, até dia **28 de julho de 2026** pode-se fazer uma devolução de 80% do valor pago pela inscrição na ERAD-SE 2026. Após esta data não haverá devolução de qualquer valor pago. A política se aplica tanto para o cancelamento da inscrição, quanto para o cancelamento de qualquer atividade adicional. Para solicitar o cancelamento, enviar a solicitação para faturamento@sbc.org.br.
+
+<!-- ### Inscrição para autores
+Pelo menos um dos alunos autores de cada um dos trabalhos aprovados na ERAD-SE 2026 devem realizar a inscrição no evento até o dia 31 de Outubro de 2025.
+
+Autores com mais de um trabalho aprovado na ERAD-SE 2026 poderão efetuar apenas uma inscrição. Não haverá cobrança adicional de taxa de publicação. -->
+
 
 
 {% if site.email %}
