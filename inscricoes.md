@@ -8,7 +8,7 @@ permalink: /inscricoes
 
 <div class="inscricoes-image">
   <a href="https://www.sbc.org.br/" target="_blank">
-    <img src="{{ '/assets/images/local/banner-inscricoes-combo.png' | relative_url }}" alt="Banner de Inscrições ERAD/SE 2026">
+    <img src="{{ '/assets/images/local/banner_COMBO.png' | relative_url }}" alt="Banner de Inscrições ERAD/SE 2026">
   </a>
 </div>
 
