@@ -1,4 +1,4 @@
-show_inscricao: False
+show_inscricao: True
 prazo_inscricao: "14/08/2026"
 valores:
   grad_sbc:                      "15,00"

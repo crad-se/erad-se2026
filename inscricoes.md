@@ -116,16 +116,16 @@ Associar-se à SBC é uma forma de tornar a SBC ainda mais forte para representa
       <td class="price stripe">R$ {{ v.profissional_sbc }}</td>
     </tr>
     <tr>
-      <td>Profissional não-associado à SBC (somente inscrição no evento)</td>
-      <td class="price">R$ {{ v.profissional_nao_sbc }}</td>
-    </tr>
-    <tr>
       <td class="stripe">Associado à SBC com anuidade vencendo em até 90 dias — COMBO: inscrição + renovação</td>
       <td class="price stripe">R$ {{ v.profissional_sbc_vencida }}</td>
     </tr>
     <tr>
       <td>Não-associado ou associação não-vigente à SBC — COMBO: inscrição + associação</td>
       <td class="price">R$ {{ v.profissional_nao_sbc_combo }}</td>
+    </tr>
+      <tr>
+      <td>Profissional não-associado à SBC (somente inscrição no evento)</td>
+      <td class="price">R$ {{ v.profissional_nao_sbc }}</td>
     </tr>
   </tbody>
 </table>
