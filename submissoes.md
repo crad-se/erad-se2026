@@ -88,11 +88,30 @@ A proposta deve ser enviada para Rafaela Brum **(rafaelabrum@eng.uerj.br)**. Ap�
 
 ### Normas de submissão
 
-Os trabalhos devem ser redigidos em **português ou inglês**, no **formato SBC**, disponível em
+Somente submissões eletrônicas em formato PDF serão aceitos. 
+Os artigos submetidos devem ser escritos em Português or Inglês, em conformidade com o limite 
+de páginas do tipo de artigo, com o texto principal em fonte Times tamanho 12, e deve ser renderizado 
+sem erros usando ferramentas de visualização de PDF padrão.
+
+Os artigos devem aderir ao formato para artigos a ser publicados pela SBC, disponível em <a href="https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip">SBC Modelos para Publicações</a>
+O modelo também está disponível no <a href="https://www.overleaf.com/latex/templates/sbc-conferences-template/blbxwjwzdngr"> Overleaf</a>
+
+#### Source Files
+
+- Sample TeX Source File: [sbc-template.tex](assets/files/sbc-template.tex)
+- Sample PDF file: [sbc_template.pdf](assets/files/sbc_template.pdf)
+- Style file: [sbc-template.sty](assets/files/sbc-template.sty)
+- Bibliography Style: [sbc.bst](assets/files/sbc.bst)
+- Sample Bibliography file: [sbc-template.bib](assets/files/sbc-template.bib)
+
+<!-- Os trabalhos devem ser redigidos em **português ou inglês**, no **formato SBC**, disponível em
 [sbc.org.br/documentosinstitucionais](https://www.sbc.org.br/documentosinstitucionais).
 
-Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenLib e indexados.
+Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenLib e indexados. -->
+
 
 . **Importante:** Os artigos enviados não devem ter sido publicados anteriormente nem estar sob revisão por outro workshop, conferência ou periódico.
+
+Recomendamos aos autores que observem o Código de [Conduta para Autores de Publicações da SBC](https://sol.sbc.org.br/index.php/indice/conduta) ao submeterem seus trabalhos.
 
 > **Submissões:** acesse o sistema [JEMS](https://jems3.sbc.org.br/events/654)
