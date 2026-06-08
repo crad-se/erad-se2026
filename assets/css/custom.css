@@ -39,6 +39,7 @@ h1, h2 {
   background: var(--accent) !important;
   border-color: var(--accent) !important;
   border-radius: 8px !important;
+  color: #fff !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   padding: 12px 28px !important;
