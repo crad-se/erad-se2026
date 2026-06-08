@@ -7,10 +7,11 @@ permalink: /inscricoes
 
 
 <div class="inscricoes-image">
-  <a href="https://www.sbc.org.br/" target="_blank">
+  <a href=" https://centraldesistemas.sbc.org.br/ecos/eradse2026" target="_blank">
     <img src="{{ '/assets/images/local/banner_COMBO.png' | relative_url }}" alt="Banner de Inscrições ERAD/SE 2026">
   </a>
 </div>
+
 
 
 Participantes não associados à SBC ou associados com anuidade próxima do vencimento podem se associar ou renovar a associação junto com a inscrição, escolhendo as categorias COMBO com um desconto no valor da inscrição. As categorias COMBO são a opção mais vantajosa para os não associados à SBC, pois os valores de inscrição são menores do que os das categorias sem combo e incluem a associação à SBC. 
@@ -133,9 +134,13 @@ Associar-se à SBC é uma forma de tornar a SBC ainda mais forte para representa
 
 **Atenção:** autores de artigos aceitos devem realizar a inscrição para garantir a publicação do trabalho nos anais.
 
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="https://centraldesistemas.sbc.org.br/ecos/eradse2026" target="_blank" class="btn">Inscreva-se</a>
+</div>
+
 ### Como se inscrever
 
-1. Acesse o sistema de inscrições da SBC (link em breve)
+1. Acesse o [sistema de inscrições da SBC](https://centraldesistemas.sbc.org.br/ecos/eradse2026)
 2. Crie ou acesse sua conta SBC
 3. Selecione **ERAD/SE 2026** e a categoria desejada
 4. Realize o pagamento pelo sistema
