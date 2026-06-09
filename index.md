@@ -41,7 +41,7 @@ de {{ site.event.datas }}, nas instalações da {{ site.event.instituicao }}.
     </div>
   </div>
   <div class="date-card">
-    <div class="date-marker"><b>17</b>Jul</div>
+    <div class="date-marker"><b>28</b>Jul</div>
     <div class="date-content">
       <h4>Notificação dos artigos aceitos</h4>
       <p>Resultado da avaliação para os autores dos artigos submetidos</p>
