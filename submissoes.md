@@ -21,14 +21,24 @@ A ERAD/SE 2026 convida pesquisadores, estudantes e profissionais a submeterem tr
     </tr>
   </thead>
   <tbody>
-      <tr>
+    <!-- <tr>
       <td>Submissão de propostas de minicursos</td>
-      <td>15 de Junho de 2026</td>
-      <td><span class="badge badge-gold">Aberto</span></td>
+      <td><s>15 de junho de 2026</s></td>
+      <td><span class="badge badge-gold">Prorrogado</span></td>
     </tr>
     <tr>
       <td>Submissão de artigos (IC e PG)</td>
-      <td>15 de junho de 2026</td>
+      <td><s>15 de junho de 2026</s></td>
+      <td><span class="badge badge-gold">Prorrogado</span></td>
+    </tr> -->
+    <tr>
+      <td>Submissão de propostas de minicursos <span class="prorrogado-tag">Prorrogado</span></td>
+      <td>22 de junho de 2026</td>
+      <td><span class="badge badge-gold">Aberto</span></td>
+    </tr>
+    <tr>
+      <td>Submissão de artigos (IC e PG) <span class="prorrogado-tag">Prorrogado</span></td>
+      <td>22 de junho de 2026</td>
       <td><span class="badge badge-gold">Aberto</span></td>
     </tr>
     <tr>
@@ -38,7 +48,7 @@ A ERAD/SE 2026 convida pesquisadores, estudantes e profissionais a submeterem tr
     </tr>
     <tr>
       <td>Envio da versão final</td>
-      <td>03 de agosto de 2026</td>
+      <td>07 de agosto de 2026</td>
       <td><span class="badge badge-blue">Pendente</span></td>
     </tr>
   </tbody>
@@ -82,7 +92,7 @@ Ao preparar sua submissão, siga o formato da SBC (SBC-Template), que não deve 
 A proposta deve ser enviada para Rafaela Brum **(rafaelabrum@eng.uerj.br)**. Após o envio, aguardar um e-mail de confirmação de submissão em até 72 horas.
 
 **Datas Importantes:**
-- Submissão da proposta: 15/06/2026
+- Submissão da proposta: ~~15/06/2026~~ 22/06/2026 <span class="prorrogado-tag">Prorrogado</span>
 - Notificação de aceitação: 15/07/2026
 
 
