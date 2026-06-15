@@ -70,23 +70,72 @@ Além dos ônibus, há a opção de transporte por aplicativos, como **Uber** e 
 
 ---
 
-## Hospedagem {#hospedagem}
+## Hospedagem com tarifa especial para participantes da ERAD/SE 2026 {#hospedagem}
 
-Uma seleção de hotéis e pousadas próximos ao campus está sendo preparada para sua comodidade. Em breve, disponibilizaremos uma lista completa com informações de distância, preços e contatos.
+<!-- Uma seleção de hotéis e pousadas próximos ao campus está sendo preparada para sua comodidade. Em breve, disponibilizaremos uma lista completa com informações de distância, preços e contatos. -->
 
-### Regiões recomendadas
+
+
+### Trade Hotel Juiz de Fora 
+
+O **[Trade Hotel Juiz de Fora](https://www.tradejf.com.br/)** oferece condições especiais de hospedagem para participantes da **ERAD/SE 2026**, válidas exclusivamente para o período do evento, de **12 a 14 de agosto de 2026**. As reservas devem ser feitas diretamente com a Central de Reservas do hotel, informando a participação na **ERAD/SE 2026** para acesso à tarifa especial.
+
+#### Tarifas especiais
+
+| Categoria | Individual | Duplo | Triplo |
+|---|---:|---:|---:|
+| Superior | R$ 256 | R$ 297 | R$ 389 |
+| King | R$ 307 | R$ 356 | - |
+| Master | R$ 384 | R$ 446 | - |
+
+> **Observação:** acrescer **15% de taxas** sobre os valores acima, sendo **10% de taxa de serviço** e **5% de ISS**.
+
+#### Categorias de acomodação
+
+- **Superior:** quarto padrão do hotel, com duas camas de casal.
+- **Triplo:** quarto com três camas de solteiro.
+- **King:** categoria acima da Superior, com cama king e quarto mais espaçoso.
+- **Master:** quarto com cama king e banheira de hidromassagem.
+
+#### Incluso na diária
+
+- Café da manhã, desde que servido no restaurante do hotel.
+- Acesso à internet Wi-Fi.
+
+#### Condições de reserva e pagamento
+
+Para garantir a reserva, é necessário o pagamento da primeira diária no ato da reserva. O saldo restante deverá ser pago no check-in. Os pagamentos podem ser realizados por meio de link, com aceitação de: Cartão de crédito, débito e Pix.
+
+#### Horários de hospedagem
+
+- **Check-in:** a partir das 14h.
+- **Check-out:** até às 12h.
+
+#### Política de cancelamento e no-show
+
+- **Cancelamento:** permitido sem custo até 7 dias após a realização da reserva.
+- **No-show:** em caso de não comparecimento, será cobrada 1 diária.
+
+#### Reservas
+
+As reservas devem ser feitas diretamente com a Central de Reservas, informando que o hóspede é participante da **ERAD/SE 2026**.
+
+**Central de Reservas**  
+Telefone/WhatsApp: +55 32 3025-7504 | +55 32 9 8504-6373  
+E-mail: reservas@tradejf.com.br
+
+### Outras Regiões recomendadas
 
 - **Centro da cidade:** Bom para não-hóspedes que desejam acessar comércio e restaurantes
 - **Bairro São Mateus:** Próximo à UFJF, excelente para participantes
 
-
-### Dicas de hospedagem
+<!-- ### Dicas de hospedagem
 
 - Reserve com antecedência para garantir melhor preço
 - Verifique se o hotel oferece transporte até o campus
 - Consulte as políticas de cancelamento antes de confirmar
 
-**Mais informações em breve!**
+**Mais informações em breve!** -->
 
 ---
 
