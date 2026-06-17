@@ -129,5 +129,3 @@ de {{ site.event.datas }}, nas instalações da {{ site.event.instituicao }}.
     </a>
   </div>
 </div>
-
-## Patrocinadores

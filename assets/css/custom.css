@@ -59,6 +59,7 @@ h1, h2 {
 /* --- Conteúdo principal ----------------------------------- */
 .main-content {
   max-width: 960px !important;
+  margin: 0 auto !important;
   padding: 2.5rem 2rem 4rem !important;
 }
 
@@ -585,6 +586,63 @@ h1, h2 {
   max-width: 800px;
   height: 500px;
   border-radius: 10px;
+}
+
+/* --- Patrocinadores --------------------------------------- */
+.patrocinadores {
+  background: var(--white);
+  padding: 3rem 0;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.patrocinadores-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.patrocinadores h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--muted);
+  margin: 0 0 2rem;
+}
+
+.patrocinadores h2::after { display: none !important; }
+
+.patrocinadores-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.patrocinadores-logos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0.75;
+  transition: opacity 0.2s; */
+}
+
+.patrocinadores-logos a:hover { opacity: 1; }
+
+.patrocinadores-logos img {
+  max-height: 250px;
+  max-width: 250px;
+  object-fit: contain;
+}
+
+.patrocinadores-logos a:hover img { filter: grayscale(0%); }
+
+@media (max-width: 600px) {
+  .patrocinadores-logos { gap: 1.5rem; }
+  .patrocinadores-logos img { max-height: 45px; max-width: 130px; }
 }
 
 /* --- Áreas de interesse ----------------------------------- */
