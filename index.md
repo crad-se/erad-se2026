@@ -41,10 +41,10 @@ de {{ site.event.datas }}, nas instalações da {{ site.event.instituicao }}.
     </div>
   </div> -->
   <div class="date-card prorrogado">
-    <div class="date-marker"><b>22</b>Jun</div>
+    <div class="date-marker"><b>06</b>Jul</div>
     <div class="date-content">
       <h4>Submissão de artigos (Fóruns IC e PG) <span class="prorrogado-tag">Prorrogado</span></h4>
-      <p><span class="date-old">15 Jun</span> Data limite para submissão de trabalhos nas trilhas de Iniciação Científica e Pós-Graduação</p>
+      <p><span class="date-old">15 Jun</span> <span class="date-old">22 Jun</span> Data limite para submissão de trabalhos nas trilhas de Iniciação Científica e Pós-Graduação</p>
     </div>
   </div>
   <div class="date-card">
