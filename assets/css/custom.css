@@ -161,6 +161,16 @@ h1, h2 {
   background: var(--accent2);
 }
 
+.date-card.encerrado {
+  border: 1px solid rgba(153, 27, 27, 0.25);
+  border-left: 3px solid #991b1b;
+  opacity: 0.75;
+}
+
+.date-card.encerrado .date-marker {
+  background: #991b1b;
+}
+
 .date-old {
   display: inline-block;
   font-size: 0.78rem;

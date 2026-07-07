@@ -34,12 +34,12 @@ A ERAD/SE 2026 convida pesquisadores, estudantes e profissionais a submeterem tr
     <tr>
       <td>Submissão de propostas de minicursos <span class="prorrogado-tag">Prorrogado</span></td>
       <td>06 de julho de 2026</td>
-      <td><span class="badge badge-gold">Aberto</span></td>
+      <td><span class="badge badge-red">Encerrado</span></td>
     </tr>
     <tr>
       <td>Submissão de artigos (IC e PG) <span class="prorrogado-tag">Prorrogado</span></td>
       <td>06 de julho de 2026</td>
-      <td><span class="badge badge-gold">Aberto</span></td>
+      <td><span class="badge badge-red">Encerrado</span></td>
     </tr>
     <tr>
       <td>Notificação de aceitação</td>

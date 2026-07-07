@@ -40,11 +40,11 @@ de {{ site.event.datas }}, nas instalações da {{ site.event.instituicao }}.
       <p>Data limite para submissão de trabalhos nas trilhas de Iniciação Científica e Pós-Graduação</p>
     </div>
   </div> -->
-  <div class="date-card prorrogado">
+  <div class="date-card encerrado">
     <div class="date-marker"><b>06</b>Jul</div>
     <div class="date-content">
-      <h4>Submissão de artigos (Fóruns IC e PG) <span class="prorrogado-tag">Prorrogado</span></h4>
-      <p><span class="date-old">15 Jun</span> <span class="date-old">22 Jun</span> Data limite para submissão de trabalhos nas trilhas de Iniciação Científica e Pós-Graduação</p>
+      <h4>Submissão de artigos (Fóruns IC e PG) <span class="badge badge-red">Encerrado</span></h4>
+      <p>Prazo de submissão encerrado. Aguarde a notificação de aceitação.</p>
     </div>
   </div>
   <div class="date-card">
