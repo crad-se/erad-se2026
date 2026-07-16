@@ -29,15 +29,17 @@ A programação completa será divulgada em breve. Acompanhe as atualizações n
 <div class="minicurso-card">
   <div class="minicurso-header">
     <div>
-      <h4>Data Science com GPU</h4>
-      <p class="minicurso-cert"><span class="badge badge-green">Certificado NVIDIA DLI</span> &nbsp;Certificado oficial em "Data Science com aceleração em GPU" pelo Deep Learning Institute (DLI) da NVIDIA</p>
+      <h4>Data Science com GPU <span class="badge badge-green">Certificado NVIDIA DLI</span></h4>
+      <p class="minicurso-cert">
+        <strong>Instrutor:</strong> Ricardo Ferreira (UFV) &nbsp;·&nbsp; <strong>Vagas:</strong> 60 (dois laboratórios)
+      </p>
     </div>
   </div>
 
   <p>
-    Curso gratuito com certificação oficial da NVIDIA, ideal para quem já tem experiência em machine learning e quer explorar a aceleração de dados em GPU.<br>
-    <strong>Professor:</strong> Ricardo Ferreira (UFV) &nbsp;·&nbsp;
-    <strong>Vagas:</strong> 60 (dois laboratórios)
+    Curso gratuito com certificação oficial da NVIDIA, ideal para quem já tem experiência em
+    machine learning e quer explorar a aceleração de dados em GPU. Cada participante terá
+    acesso a <strong>24 horas de GPU na nuvem da NVIDIA</strong> para realizar as atividades.
   </p>
 
   <p><strong>Conteúdo:</strong></p>
@@ -50,10 +52,42 @@ A programação completa será divulgada em breve. Acompanhe as atualizações n
   </ul>
 
   <div class="minicurso-gpu-box">
-    <strong>Infraestrutura:</strong> cada participante terá <strong>24 horas de GPU na nuvem da NVIDIA</strong> para realizar as atividades do curso.
+    <strong>Pré-requisitos:</strong> Experiência em machine learning e programação Python.<br>
+    <strong>Público-alvo:</strong> Estudantes e pesquisadores que desejam explorar aceleração de dados em GPU.
+  </div>
+</div>
+
+<div class="minicurso-card">
+  <div class="minicurso-header">
+    <div>
+      <h4>OpenMP Tasks: Programação Paralela Baseada em Tarefas</h4>
+      <p class="minicurso-cert">
+        <strong>Instrutores:</strong> Gabriel P. Silva (IC-UFRJ) &nbsp;·&nbsp; Calebe P. Bianchini (Mackenzie) &nbsp;·&nbsp; Evaldo B. Costa (Cesar)
+      </p>
+    </div>
   </div>
 
-  <a href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-DS-02+V2" target="_blank" class="btn btn-outline btn-sm">Saiba mais sobre o curso ↗</a>
+  <p>
+    A crescente demanda por aplicações de alto desempenho tem impulsionado a adoção de modelos de
+    programação paralela capazes de explorar eficientemente arquiteturas multicore. Nas versões mais
+    recentes do OpenMP, o modelo baseado em tarefas (<em>task-based parallelism</em>) tornou-se um
+    dos principais recursos para o desenvolvimento de aplicações paralelas dinâmicas, permitindo a
+    representação natural de algoritmos recursivos, estruturas de dados irregulares e fluxos de
+    execução complexos.
+  </p>
+
+  <p><strong>Conteúdo:</strong></p>
+  <ul class="minicurso-topics">
+    <li>Criação e sincronização de tarefas OpenMP</li>
+    <li>Escopo de dados e dependências entre tarefas</li>
+    <li>Diretivas avançadas e estratégias de otimização</li>
+    <li>Laboratórios práticos via Google Colab (sem instalação local)</li>
+  </ul>
+
+  <div class="minicurso-gpu-box">
+    <strong>Pré-requisitos:</strong> Conhecimentos básicos de C/C++, familiaridade com estruturas de repetição e recursão, conceitos básicos de sistemas computacionais.<br>
+    <strong>Público-alvo:</strong> Estudantes de graduação e pós-graduação, pesquisadores de HPC e desenvolvedores que desejam introduzir paralelismo em aplicações multicore.
+  </div>
 </div>
 
 ---
