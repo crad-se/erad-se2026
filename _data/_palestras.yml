@@ -1,0 +1,65 @@
+- titulo: "Ciência de Dados para Análise de Desempenho de Aplicações HPC"
+  palestrante: "Lucas Mello Schnorr"
+  instituicao: "Universidade Federal do Rio Grande do Sul (UFRGS)"
+  foto: "/assets/images/palestrantes/lucas.png"
+  resumo: >
+    Historicamente a análise de desempenho de aplicações HPC tem sido realizada com ferramentas
+    monolíticas com pouca capacidade de expressão e extensão. Em um passado mais recente, surgem
+    várias ferramentas que permitem empregar ferramentas de ciência de dados e big data para a
+    análise de rastros de execução e perfis de desempenho de aplicações HPC. Esta palestra
+    apresentará o ambiente de análise de desempenho do StarVZ especialmente desenvolvido para
+    aplicações baseadas em tarefas (StarPU, Parsec, OpenMP) e desafios de escalabilidade.
+    A apresentação dialoga também com mecanismos de análise de dados reprodutíveis e de
+    transparência científica.
+  shortbio: >
+    Doutor em Ciência da Computação pela UFRGS e pelo Institut Polytechnique de Grenoble
+    (cotutela), e graduado em Ciência da Computação pela Universidade Federal de Santa Maria.
+    Professor Associado do Instituto de Informática da UFRGS e docente do PPGC, com atuação
+    em computação paralela, compiladores e paradigmas de linguagens de programação. Possui
+    experiência em Computação de Alto Desempenho (HPC), análise de desempenho, simulação de
+    sistemas computacionais e computação energeticamente eficiente. Realizou estágio
+    pós-doutoral no Inria Grenoble Rhône-Alpes (projeto HPC4E/H2020) e atuou como pesquisador
+    no CNRS em modelagem e análise de desempenho.
+
+- titulo: "Programação Paralela para Aplicações de Bioinformática e Escalonamento de Fluxos de Trabalho na Nuvem: a Corrida por Desempenho"
+  palestrante: "Alba Cristina Magalhães Alves de Melo"
+  instituicao: "Universidade de Brasília (UnB)"
+  foto: "/assets/images/palestrantes/photo_melo_alba_10222025_jpeg.jpg"
+  resumo: >
+    Aplicações de bioinformática geralmente exigem alto poder computacional, tornando a Computação
+    de Alto Desempenho (HPC) altamente desejável. Nesta palestra, serão apresentadas aplicações
+    paralelas de bioinformática desenvolvidas pelo grupo de pesquisa do Laboratório LAICO da
+    Universidade de Brasília, cobrindo: (a) aplicação paralela para comparação exata par a par de
+    sequências biológicas longas em clusters de GPUs e CPUs; (b) aplicação de alinhamento múltiplo
+    de sequências exato para arquiteturas multithreaded; e (c) enovelamento heurístico de proteínas
+    com dinâmica molecular em um supercomputador. Por fim, será discutido um framework para a
+    execução de workflows científicos em nuvem HPC.
+  shortbio: >
+    Professora Titular do Departamento de Ciência da Computação da Universidade de Brasília (UnB)
+    desde 1997, com doutorado em Ciência da Computação pelo Institut National Polytechnique de
+    Grenoble (INPG, França, 1996). Membro Sênior do IEEE, vice-coordenadora da Comunidade Técnica
+    do IEEE sobre Processamento Paralelo (TCPP) e membro do Comitê de Assessoramento em Ciência da
+    Computação do CNPq. Atua como Editora-Chefe Associada do JPDC e editora associada de periódicos
+    como IEEE Transactions on Computers, IEEE Transactions on Parallel and Distributed Systems, ACM
+    Computing Surveys e Future Generation Computer Systems. Foi General Co-Chair do IEEE IPDPS 2024
+    e atua como track chair no SC 2026 e SBAC-PAD 2026.
+
+- titulo: "Inteligência, Paralelismo e LLMs"
+  palestrante: "Wellington Martins"
+  instituicao: "Universidade Federal de Goiás (INF/UFG)"
+  foto: "/assets/images/palestrantes/foto_wsmartins_jan_2026.png"
+  resumo: >
+    A palestra aborda a evolução da inteligência maquínica, definindo-a como uma função que
+    transforma dados, memória e contexto em previsões. O destaque é a transição do processamento
+    sequencial de Von Neumann para o paralelismo massivo das redes neurais e dos Transformers,
+    que permitiu que as LLMs previssem o próximo token com sofisticação. Além de comentar o
+    funcionamento técnico através de espaços latentes e embeddings, a palestra aponta para um
+    futuro de "paralelismo cognitivo", onde agentes autônomos e especializados atuam em sinergia
+    para universalizar a capacidade de ação sobre uma nova camada cognitiva global.
+  shortbio: >
+    Professor Titular de Ciência da Computação na Universidade Federal de Goiás (INF/UFG), com
+    doutorado em Ciência da Computação pela Universidade de East Anglia (Inglaterra), mestrado em
+    Sistemas de Computação na PUC-RJ e graduação em Engenharia Elétrica na UFG. Atuou como
+    pesquisador visitante na UDEL (EUA) e como pós-doutorando no DCC/UFMG e no ICMC/USPSCar.
+    Seus interesses de pesquisa incluem computação paralela/HPC (algoritmos e implementações),
+    inteligência artificial e informática científica (bio/geo/eco-informática).

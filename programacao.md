@@ -60,7 +60,35 @@ A programação completa será divulgada em breve. Acompanhe as atualizações n
 
 ### Palestras {#palestras}
 
+{% assign palestras = site.data._palestras %}
+{% if palestras and palestras.size > 0 %}
+  {% for palestra in palestras %}
+<div class="palestra-card">
+  {% if palestra.foto %}
+  <div class="palestra-header">
+    <img src="{{ palestra.foto | relative_url }}" alt="Foto de {{ palestra.palestrante }}" class="palestra-foto">
+    <div>
+      <h4>{{ palestra.titulo }}</h4>
+      <p class="palestra-palestrante"><strong>{{ palestra.palestrante }}</strong>{% if palestra.instituicao %} — {{ palestra.instituicao }}{% endif %}</p>
+    </div>
+  </div>
+  {% else %}
+  <h4>{{ palestra.titulo }}</h4>
+  <p class="palestra-palestrante"><strong>{{ palestra.palestrante }}</strong>{% if palestra.instituicao %} — {{ palestra.instituicao }}{% endif %}</p>
+  {% endif %}
+
+  {% if palestra.resumo %}
+  <p class="palestra-resumo">{{ palestra.resumo }}</p>
+  {% endif %}
+
+  {% if palestra.shortbio %}
+  <p class="palestra-bio"><em>{{ palestra.shortbio }}</em></p>
+  {% endif %}
+</div>
+  {% endfor %}
+{% else %}
 As palestras convidadas e industriais serão divulgadas em breve.
+{% endif %}
 
 ---
 
