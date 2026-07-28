@@ -43,7 +43,7 @@ A ERAD/SE 2026 convida pesquisadores, estudantes e profissionais a submeterem tr
     </tr>
     <tr>
       <td>Notificação de aceitação</td>
-      <td>28 de julho de 2026</td>
+      <td>31 de julho de 2026 <span class="badge badge-gold">⚠ Data atualizada</span></td>
       <td><span class="badge badge-blue">Pendente</span></td>
     </tr>
     <tr>

@@ -840,3 +840,36 @@ h1, h2 {
   padding: 0.75rem 1rem;
   margin: 0;
 }
+
+/* --- Redes sociais ---------------------------------------- */
+.social-box {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 1.5rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 1.1rem;
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.social-link:hover {
+  border-color: #e1306c;
+  color: #e1306c;
+  text-decoration: none;
+}
+
+.social-link svg {
+  flex-shrink: 0;
+}
