@@ -56,7 +56,7 @@ A programação completa será divulgada em breve. Acompanhe as atualizações n
     <strong>Público-alvo:</strong> Estudantes e pesquisadores que desejam explorar aceleração de dados em GPU.
   </div>
 
-  <a href="https://forms.gle/WLbtnk7gEpoaHaD19" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm">Inscreva-se — vagas limitadas (60) ↗</a>
+  <a href="https://forms.gle/WLbtnk7gEpoaHaD19" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm">Inscreva-se — vagas limitadas (60)</a>
   
 </div>
 
@@ -91,6 +91,8 @@ A programação completa será divulgada em breve. Acompanhe as atualizações n
     <strong>Pré-requisitos:</strong> Conhecimentos básicos de C/C++, familiaridade com estruturas de repetição e recursão, conceitos básicos de sistemas computacionais.<br>
     <strong>Público-alvo:</strong> Estudantes de graduação e pós-graduação, pesquisadores de HPC e desenvolvedores que desejam introduzir paralelismo em aplicações multicore.
   </div>
+
+  <a href="https://forms.gle/k8965PqKQoSofvWQ8" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm">Inscreva-se — vagas limitadas (60)</a>
 </div>
 
 ---
