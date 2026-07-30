@@ -56,6 +56,17 @@ h1, h2 {
 
 .btn-outline:hover { background: rgba(255,255,255,0.1) !important; }
 
+.btn-outline-dark {
+  background: transparent !important;
+  border: 1px solid var(--accent) !important;
+  color: var(--accent) !important;
+}
+
+.btn-outline-dark:hover {
+  background: var(--accent) !important;
+  color: #fff !important;
+}
+
 /* --- Conteúdo principal ----------------------------------- */
 .main-content {
   max-width: 960px !important;

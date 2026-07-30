@@ -55,6 +55,9 @@ A programação completa será divulgada em breve. Acompanhe as atualizações n
     <strong>Pré-requisitos:</strong> Experiência em machine learning e programação Python.<br>
     <strong>Público-alvo:</strong> Estudantes e pesquisadores que desejam explorar aceleração de dados em GPU.
   </div>
+
+  <a href="https://forms.gle/WLbtnk7gEpoaHaD19" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm">Inscreva-se — vagas limitadas (60) ↗</a>
+  
 </div>
 
 <div class="minicurso-card">
