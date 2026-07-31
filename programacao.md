@@ -7,7 +7,7 @@ permalink: /programacao
 
 ## Programação
 
-A programação completa será divulgada em breve. Acompanhe as atualizações nesta página.
+<!-- A programação completa será divulgada em breve. Acompanhe as atualizações nesta página. -->
 
 {% include cronograma.html %}
 
