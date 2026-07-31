@@ -146,7 +146,14 @@ O principal objetivo do Concurso de TCCs e Dissertações é disseminar os Traba
 
 ### Maratona de Programação Paralela {#maratona}
 
-A Maratona de Programação Paralela é uma das atividades tradicionais das Escolas Regionais de Alto Desempenho.
-Mais informações em breve.
+A **Maratona de Programação Paralela Distribuída** é uma competição que estimula o desenvolvimento de
+habilidades em programação paralela e distribuída. As equipes devem otimizar códigos sequenciais para
+obter respostas mais rápidas — aceleração e corretude são os critérios de pontuação.
+
+- **Aquecimento:** 12 de agosto, das 20h às 22h
+- **Competição:** 13 de agosto, a partir das 20h (duração máxima de 3 horas)
+- **Equipes:** até 3 competidores
+
+<a href="{{ '/maratona' | relative_url }}" class="btn btn-outline-dark btn-sm">Saiba mais e inscreva-se ↗</a>
 
 ---
