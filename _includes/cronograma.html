@@ -186,9 +186,9 @@
 <div class="cron">
 
   <nav class="cron-tabs" role="tablist">
-    <button class="cron-tab active" role="tab" aria-selected="true"  onclick="cronDay(0,this)">12 ago · Dia 1</button>
-    <button class="cron-tab"        role="tab" aria-selected="false" onclick="cronDay(1,this)">13 ago · Dia 2</button>
-    <button class="cron-tab"        role="tab" aria-selected="false" onclick="cronDay(2,this)">14 ago · Dia 3</button>
+    <button class="cron-tab active" role="tab" aria-selected="true"  aria-controls="cron-day-0" id="cron-tab-0" tabindex="0"  onclick="cronDay(0,this)">12 ago · Dia 1</button>
+    <button class="cron-tab"        role="tab" aria-selected="false" aria-controls="cron-day-1" id="cron-tab-1" tabindex="-1" onclick="cronDay(1,this)">13 ago · Dia 2</button>
+    <button class="cron-tab"        role="tab" aria-selected="false" aria-controls="cron-day-2" id="cron-tab-2" tabindex="-1" onclick="cronDay(2,this)">14 ago · Dia 3</button>
   </nav>
 
   <div id="cron-main"></div>
@@ -244,7 +244,7 @@
         detail:'Profa. Alba Cristina Magalhães Alves de Melo (UNB)', local:'Auditório ICE' },
       { time:'15:00', end:'16:00', type:'forum',    title:'Fórum de Iniciação Científica',
         part:'Sessão 3', local:'Auditório ICE' },
-      { time:'16:00', end:'16:40', type:'break',    title:'Coffee Break', compact:true },
+      { time:'16:00', end:'16:40', type:'break',    title:'Coffee Break/Sessão de Poster', compact:true },
       { time:'16:40', end:'18:20', type:'concurso', title:'Concurso de TCC', local:'Auditório ICE' },
       { time:'18:40', end:'19:00', type:'reuniao',  title:'Reunião CRAD-SE', compact:true },
       { time:'19:30', end:'22:30', type:'maratona', title:'Maratona de Programação' },
@@ -259,11 +259,11 @@
       { time:'10:00', end:'10:40', type:'break',    title:'Coffee Break', compact:true },
       { time:'10:40', end:'12:00', type:'forum-pos',title:'Fórum de Pós-Graduação', local:'Auditório ICE' },
       { time:'12:00', end:'14:00', type:'almoco',   title:'Almoço', compact:true },
-      { time:'14:00', end:'16:00', type:'minicurso',label:'Minicurso 3',
+      { time:'14:00', end:'16:00', type:'minicurso',label:'Minicurso 2',
         title:'OpenMP Tasks: Programação Paralela Baseada em Tarefas',
         part:'parte 1/2', local:'labEngComp' },
       { time:'16:00', end:'16:20', type:'break',    title:'Coffee Break', compact:true },
-      { time:'16:20', end:'18:00', type:'minicurso',label:'Minicurso 3',
+      { time:'16:20', end:'18:00', type:'minicurso',label:'Minicurso 2',
         title:'OpenMP Tasks: Programação Paralela Baseada em Tarefas',
         part:'parte 2/2', local:'labEngComp' },
       { time:'18:00', end:'18:20', type:'especial', title:'Encerramento', compact:true, local:'Auditório ICE' },
@@ -294,14 +294,16 @@
       var s = document.createElement('div');
       s.className = 'cron-day' + (i === 0 ? ' visible' : '');
       s.id = 'cron-day-' + i;
+      s.setAttribute('role', 'tabpanel');
+      s.setAttribute('aria-labelledby', 'cron-tab-' + i);
       s.innerHTML = '<div class="cron-list">'+events.map(card).join('')+'</div>';
       main.appendChild(s);
     });
 
     var legTypes = [
-      ['minicurso','Minicurso'],['palestra','Palestra'],['forum','Fórum IC'],
-      ['forum-pos','Fórum Pós-Grad'],['concurso','Concurso de TCC'],
-      ['maratona','Maratona'],['especial','Abertura / Encerramento'],
+      ['cred','Credenciamento'],['minicurso','Minicurso'],['palestra','Palestra'],
+      ['forum','Fórum IC'],['forum-pos','Fórum Pós-Grad'],['concurso','Concurso de TCC'],
+      ['maratona','Maratona'],['reuniao','Reunião'],['especial','Abertura / Encerramento'],
       ['break','Coffee Break'],['almoco','Almoço'],
     ];
     var leg = document.createElement('div');
@@ -323,9 +325,28 @@
     document.querySelectorAll('.cron-tab').forEach(function(b, i) {
       b.classList.toggle('active', i === idx);
       b.setAttribute('aria-selected', i === idx);
+      b.tabIndex = i === idx ? 0 : -1;
     });
+    if (btn) btn.focus();
   };
 
+  function initTabKeyNav() {
+    var tabs = document.querySelectorAll('.cron-tab');
+    tabs.forEach(function(tab, i) {
+      tab.addEventListener('keydown', function(e) {
+        var next;
+        if (e.key === 'ArrowRight') next = (i + 1) % tabs.length;
+        else if (e.key === 'ArrowLeft') next = (i - 1 + tabs.length) % tabs.length;
+        else if (e.key === 'Home') next = 0;
+        else if (e.key === 'End') next = tabs.length - 1;
+        else return;
+        e.preventDefault();
+        cronDay(next, tabs[next]);
+      });
+    });
+  }
+
   renderAll();
+  initTabKeyNav();
 }());
 </script>
