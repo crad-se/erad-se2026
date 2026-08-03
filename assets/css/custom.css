@@ -430,6 +430,46 @@ h1, h2 {
 
 .submissoes-table tr:hover td { background: var(--light); }
 
+.submissoes-table td:first-child {
+  white-space: nowrap;
+  width: 1%;
+}
+
+.submissoes-table td strong { color: var(--text); }
+
+/* --- Fórum IC/PG: sessões de trabalhos --------------------- */
+.forum-sessao { margin: 1.75rem 0; }
+
+.forum-sessao h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.forum-sessao-horario {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.forum-autores {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.forum-detalhes {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.forum-chair {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
 .badge {
   display: inline-block;
   padding: 2px 10px;

@@ -134,16 +134,125 @@ As palestras convidadas e industriais serão divulgadas em breve.
 ---
 
 
-### Fórum de Iniciação Científica e Pós-Graduação {#forum}
+### Fórum de Iniciação Científica {#forum}
 
-O Fórum IC/PG é o principal espaço de divulgação dos trabalhos submetidos ao evento,
+<!-- O Fórum IC/PG é o principal espaço de divulgação dos trabalhos submetidos ao evento,
 com apresentações orais e sessões de pôsteres.
 
-Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenLib.
+Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenLib. -->
 
-### Trabalhos de TCC e Dissertações {#tcc}
+{% assign sessoes_ic = site.data.forum_ic %}
+{% if sessoes_ic and sessoes_ic.size > 0 %}
+  {% for sessao in sessoes_ic %}
+<div class="forum-sessao">
+  <h4>{{ sessao.dia }} · {{ sessao.sessao }} <span class="forum-sessao-horario">({{ sessao.horario }})</span></h4>
+  <table class="submissoes-table">
+    <thead>
+      <tr><th>Horário</th><th>Trabalho</th><th>ID</th></tr>
+    </thead>
+    <tbody>
+      {% for t in sessao.trabalhos %}
+      <tr>
+        <td>{{ t.horario }}</td>
+        <td>
+          <strong>{{ t.titulo }}</strong>
+          {% if t.autores %}<br><span class="forum-autores">{{ t.autores }}</span>{% endif %}
+        </td>
+        <td>{% if t.id %}#{{ t.id }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+  {% endfor %}
+{% endif %}
 
-O principal objetivo do Concurso de TCCs e Dissertações é disseminar os Trabalhos de Conclusão de Cursos de Graduação, e Dissertações de Mestrado, voltados para a área de Computação de Alto Desempenho.
+### Fórum de Pós-Graduação {#forum-pos}
+
+{% assign sessoes_pos = site.data.forum_pos %}
+{% if sessoes_pos and sessoes_pos.size > 0 %}
+  {% for sessao in sessoes_pos %}
+<div class="forum-sessao">
+  <h4>{{ sessao.dia }} · {{ sessao.sessao }} <span class="forum-sessao-horario">({{ sessao.horario }})</span></h4>
+  <table class="submissoes-table">
+    <thead>
+      <tr><th>Horário</th><th>Trabalho</th><th>ID</th></tr>
+    </thead>
+    <tbody>
+      {% for t in sessao.trabalhos %}
+      <tr>
+        <td>{{ t.horario }}</td>
+        <td>
+          <strong>{{ t.titulo }}</strong>
+          {% if t.autores %}<br><span class="forum-autores">{{ t.autores }}</span>{% endif %}
+          {% if t.detalhes %}<br><span class="forum-detalhes">{{ t.detalhes }}</span>{% endif %}
+        </td>
+        <td>{% if t.id %}#{{ t.id }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+  {% endfor %}
+{% endif %}
+
+### Sessão de Pôsteres {#posteres}
+
+{% assign sessoes_posteres = site.data.sessao_posteres %}
+{% if sessoes_posteres and sessoes_posteres.size > 0 %}
+  {% for sessao in sessoes_posteres %}
+<div class="forum-sessao">
+  <h4>{{ sessao.dia }} · Sessão de Pôsteres <span class="forum-sessao-horario">({{ sessao.horario }})</span></h4>
+  {% if sessao.chair %}<p class="forum-chair"><strong>Chair:</strong> {{ sessao.chair }}</p>{% endif %}
+  <table class="submissoes-table">
+    <thead>
+      <tr><th>Trabalho</th><th>ID</th></tr>
+    </thead>
+    <tbody>
+      {% for t in sessao.trabalhos %}
+      <tr>
+        <td>
+          <strong>{{ t.titulo }}</strong>
+          {% if t.autores %}<br><span class="forum-autores">{{ t.autores }}</span>{% endif %}
+        </td>
+        <td>{% if t.id %}#{{ t.id }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+  {% endfor %}
+{% endif %}
+
+### Trabalhos de TCC {#tcc}
+
+<!-- O principal objetivo do Concurso de TCCs e Dissertações é disseminar os Trabalhos de Conclusão de Cursos de Graduação, e Dissertações de Mestrado, voltados para a área de Computação de Alto Desempenho. -->
+
+{% assign sessoes_tcc = site.data.concurso_tcc %}
+{% if sessoes_tcc and sessoes_tcc.size > 0 %}
+  {% for sessao in sessoes_tcc %}
+<div class="forum-sessao">
+  <h4>{{ sessao.dia }} · Concurso de TCC <span class="forum-sessao-horario">({{ sessao.horario }})</span></h4>
+  <table class="submissoes-table">
+    <thead>
+      <tr><th>Horário</th><th>Trabalho</th><th>ID</th></tr>
+    </thead>
+    <tbody>
+      {% for t in sessao.trabalhos %}
+      <tr>
+        <td>{{ t.horario }}</td>
+        <td>
+          <strong>{{ t.titulo }}</strong>
+          {% if t.autores %}<br><span class="forum-autores">{{ t.autores }}</span>{% endif %}
+        </td>
+        <td>{% if t.id %}#{{ t.id }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+  {% endfor %}
+{% endif %}
 
 
 ### Maratona de Programação Paralela {#maratona}
