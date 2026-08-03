@@ -47,46 +47,47 @@
 .cron-list {
   display: flex;
   flex-direction: column;
-  gap: .45rem;
+  gap: .3rem;
   margin: 0 0 1.5rem;
 }
 
-/* ── Card de evento ────────────────────────────────────────── */
+/* ── Card de evento (linha única) ──────────────────────────── */
 .ev {
   background: var(--white);
   border: 1px solid var(--border);
   border-left: 4px solid var(--ev-color);
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: var(--shadow);
-  display: grid;
-  grid-template-columns: 72px 1fr;
+  display: flex;
+  align-items: baseline;
+  gap: .65rem;
+  padding: .5rem .875rem;
   overflow: hidden;
   transition: transform .15s;
 }
 .ev:hover { transform: translateY(-1px); }
 
 .ev-time {
+  flex: 0 0 auto;
+  align-self: center;
   background: var(--light);
-  border-right: 1px solid var(--border);
-  padding: .875rem .6rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: .1rem;
-  font-size: .65rem;
+  border-radius: 5px;
+  padding: .2rem .5rem;
+  font-size: .72rem;
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--muted);
-  text-align: center;
+  white-space: nowrap;
+  color: var(--text);
 }
-.ev-time .t0 { font-weight: 600; color: var(--text); font-size: .72rem; }
-.ev-time .sep { opacity: .4; font-size: .55rem; }
 
 .ev-body {
-  padding: .875rem 1.1rem;
+  flex: 1 1 auto;
+  min-width: 0;
   display: flex;
-  flex-direction: column;
-  gap: .2rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: .5rem;
+  row-gap: .1rem;
 }
 
 .ev-chip {
@@ -100,47 +101,46 @@
   align-items: center;
   padding: 2px 8px;
   border-radius: 10px;
-  width: fit-content;
+  align-self: center;
 }
 
 .ev-title {
-  font-size: .92rem;
+  font-size: .88rem;
   font-weight: 500;
-  line-height: 1.35;
   color: var(--text);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 
-.ev-detail {
-  font-size: .82rem;
-  color: var(--muted);
-  line-height: 1.35;
-}
+.ev-break { flex-basis: 100%; height: 0; }
 
-.ev-part {
-  font-size: .75rem;
-  color: var(--ev-color);
-  font-weight: 500;
-  opacity: .85;
-}
-
+.ev-detail,
+.ev-part,
 .ev-local {
-  font-size: .73rem;
+  font-size: .78rem;
   color: var(--muted);
-  display: flex;
-  align-items: center;
-  gap: .25rem;
 }
-.ev-local::before { content: '📍'; font-size: .65rem; }
 
-.ev.compact .ev-body { padding: .55rem 1.1rem; }
+.ev-part { color: var(--ev-color); font-weight: 500; opacity: .85; }
+
+.ev-local::before { content: '📍'; font-size: .68rem; margin-right: .2rem; }
+
+.ev-sep { color: var(--border); margin: 0 -.15rem; }
+
+.ev.compact {
+  padding: .35rem .875rem;
+}
 .ev.compact .ev-title {
-  font-size: .8rem;
+  font-size: .78rem;
   font-weight: 500;
   letter-spacing: .03em;
   text-transform: uppercase;
   color: var(--muted);
 }
-.ev.compact .ev-time .t0 { font-size: .65rem; }
+.ev.compact .ev-time { font-size: .68rem; }
 
 /* ── Legenda ───────────────────────────────────────────────── */
 .cron-legend {
@@ -174,9 +174,8 @@
 
 @media (max-width: 520px) {
   .cron-tab { padding: .6rem .9rem; font-size: .82rem; }
-  .ev { grid-template-columns: 60px 1fr; }
-  .ev-time { font-size: .6rem; padding: .7rem .4rem; }
-  .ev-body { padding: .7rem .875rem; }
+  .ev { padding: .45rem .7rem; gap: .5rem; }
+  .ev-time { font-size: .65rem; padding: .15rem .4rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .ev, .cron-tab { transition: none; }
@@ -273,15 +272,20 @@
   function card(ev) {
     var t = TYPE[ev.type];
     var cls = ev.compact ? ' compact' : '';
-    var timeStr = ev.end
-      ? '<span class="t0">'+ev.time+'</span><span class="sep">↓</span><span>'+ev.end+'</span>'
-      : '<span class="t0">'+ev.time+'</span>';
+    var timeStr = ev.end ? ev.time+'–'+ev.end : ev.time;
+
+    var extras = [];
+    if (ev.detail) extras.push('<span class="ev-detail">'+ev.detail+'</span>');
+    if (ev.part)   extras.push('<span class="ev-part">'+ev.part+'</span>');
+    if (ev.local)  extras.push('<span class="ev-local">'+ev.local+'</span>');
+
     var body = '';
     if (!ev.compact) body += '<span class="ev-chip">'+(ev.label||t.label)+'</span>';
-    body += '<p class="ev-title">'+ev.title+'</p>';
-    if (ev.detail) body += '<p class="ev-detail">'+ev.detail+'</p>';
-    if (ev.part)   body += '<span class="ev-part">'+ev.part+'</span>';
-    if (ev.local)  body += '<span class="ev-local">'+ev.local+'</span>';
+    body += '<span class="ev-title">'+ev.title+'</span>';
+    if (extras.length) {
+      body += '<span class="ev-break"></span>';
+      body += extras.join('<span class="ev-sep">·</span>');
+    }
     return '<article class="ev'+cls+'" style="--ev-color:'+t.color+';--ev-bg:'+t.bg+'">'
       +'<div class="ev-time">'+timeStr+'</div>'
       +'<div class="ev-body">'+body+'</div>'
