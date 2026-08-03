@@ -5,7 +5,7 @@ subtitle: Três dias de atividades técnicas, científicas e de integração
 permalink: /programacao
 ---
 
-## Programação
+## Cronograma da Programação
 
 <!-- A programação completa será divulgada em breve. Acompanhe as atualizações nesta página. -->
 
@@ -26,7 +26,7 @@ permalink: /programacao
 
 ---
 
-### Minicursos {#minicursos}
+## Minicursos {#minicursos}
 
 <div class="minicurso-card">
   <div class="minicurso-header">
@@ -99,7 +99,7 @@ permalink: /programacao
 
 ---
 
-### Palestras {#palestras}
+## Palestras {#palestras}
 
 {% assign palestras = site.data._palestras %}
 {% if palestras and palestras.size > 0 %}
@@ -134,7 +134,7 @@ As palestras convidadas e industriais serão divulgadas em breve.
 ---
 
 
-### Fórum de Iniciação Científica {#forum}
+## Fórum de Iniciação Científica {#forum}
 
 <!-- O Fórum IC/PG é o principal espaço de divulgação dos trabalhos submetidos ao evento,
 com apresentações orais e sessões de pôsteres.
@@ -167,7 +167,7 @@ Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenL
   {% endfor %}
 {% endif %}
 
-### Fórum de Pós-Graduação {#forum-pos}
+## Fórum de Pós-Graduação {#forum-pos}
 
 {% assign sessoes_pos = site.data.forum_pos %}
 {% if sessoes_pos and sessoes_pos.size > 0 %}
@@ -196,7 +196,7 @@ Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenL
   {% endfor %}
 {% endif %}
 
-### Sessão de Pôsteres {#posteres}
+## Sessão de Pôsteres {#posteres}
 
 {% assign sessoes_posteres = site.data.sessao_posteres %}
 {% if sessoes_posteres and sessoes_posteres.size > 0 %}
@@ -224,7 +224,7 @@ Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenL
   {% endfor %}
 {% endif %}
 
-### Trabalhos de TCC {#tcc}
+## Trabalhos de TCC {#tcc}
 
 <!-- O principal objetivo do Concurso de TCCs e Dissertações é disseminar os Trabalhos de Conclusão de Cursos de Graduação, e Dissertações de Mestrado, voltados para a área de Computação de Alto Desempenho. -->
 
@@ -255,7 +255,7 @@ Trabalhos aceitos serão publicados nos **Anais da ERAD/SE 2026** pela SBC OpenL
 {% endif %}
 
 
-### Maratona de Programação Paralela {#maratona}
+## Maratona de Programação Paralela {#maratona}
 
 A **Maratona de Programação Paralela Distribuída** é uma competição que estimula o desenvolvimento de
 habilidades em programação paralela e distribuída. As equipes devem otimizar códigos sequenciais para
