@@ -1,0 +1,163 @@
+/* ── Abas ──────────────────────────────────────────────────── */
+.cron-tabs {
+  display: flex;
+  border-bottom: 2px solid var(--border);
+  margin: 1.5rem 0 1rem;
+  gap: 0;
+}
+.cron-tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  padding: .7rem 1.5rem;
+  font: var(--fw-medium) .9rem/1 var(--font-body);
+  color: var(--muted);
+  cursor: pointer;
+  transition: color .15s, border-color .15s;
+  white-space: nowrap;
+}
+.cron-tab:hover { color: var(--text); }
+.cron-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.cron-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+/* ── Painel de dia ─────────────────────────────────────────── */
+.cron-day { display: none; }
+.cron-day.visible { display: block; }
+
+.cron-list {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  margin: 0 0 1.5rem;
+}
+
+/* ── Card de evento (linha única) ──────────────────────────── */
+.ev {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--ev-color);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: baseline;
+  gap: .65rem;
+  padding: .5rem .875rem;
+  overflow: hidden;
+  transition: transform .15s;
+}
+.ev:hover { transform: translateY(-1px); }
+
+.ev-time {
+  flex: 0 0 auto;
+  align-self: center;
+  background: var(--light);
+  border-radius: 5px;
+  padding: .2rem .5rem;
+  font-size: .72rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+.ev-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: .5rem;
+  row-gap: .1rem;
+}
+
+.ev-chip {
+  font-size: .6rem;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--ev-color);
+  background: var(--ev-bg);
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.ev-title {
+  font-size: .88rem;
+  font-weight: 500;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.ev-break { flex-basis: 100%; height: 0; }
+
+.ev-detail,
+.ev-part,
+.ev-local {
+  font-size: .78rem;
+  color: var(--muted);
+}
+
+.ev-part { color: var(--ev-color); font-weight: 500; opacity: .85; }
+
+.ev-local::before { content: '📍'; font-size: .68rem; margin-right: .2rem; }
+
+.ev-sep { color: var(--border); margin: 0 -.15rem; }
+
+.ev.compact {
+  padding: .35rem .875rem;
+}
+.ev.compact .ev-title {
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ev.compact .ev-time { font-size: .68rem; }
+
+/* ── Legenda ───────────────────────────────────────────────── */
+.cron-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .875rem;
+  align-items: center;
+  padding: .875rem 1rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-top: .5rem;
+}
+.cron-legend-hd {
+  font-size: .65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--muted);
+  width: 100%;
+  margin: 0;
+}
+.cron-legend-item {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .73rem;
+  color: var(--muted);
+}
+.cron-legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+@media (max-width: 520px) {
+  .cron-tab { padding: .6rem .9rem; font-size: .82rem; }
+  .ev { padding: .45rem .7rem; gap: .5rem; }
+  .ev-time { font-size: .65rem; padding: .15rem .4rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ev, .cron-tab { transition: none; }
+}

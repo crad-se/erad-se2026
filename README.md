@@ -86,17 +86,13 @@ Para adicionar logos de patrocinadores, coloque as imagens em `assets/img/` e re
 
 ---
 
-## Personalizar cores
+## Personalizar cores e fontes
 
-As variáveis CSS estão em `assets/css/custom.css`:
+As variáveis de todas as cores e fontes estão centralizadas em assets/css/fontes.css
 
-```css
-:root {
-  --navy:   #0B2545;   /* cor principal do header/navbar */
-  --accent: #1D9E75;   /* verde de destaque */
-  --gold:   #BA7517;   /* dourado para destaques secundários */
-}
-```
+Foram divididas em seções para controle mais efetivo: 
+- Primeiro :root fornece controle das fontes e cores do site, mais patronizado
+- A parte inferior indica variações presentes no site, assim como conversão para RPG, e mapeamento de hierarquia, ajustando dinamicamente os elementos que herdam as características e variantes
 
 ---
 

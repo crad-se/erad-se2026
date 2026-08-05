@@ -1,10 +1,9 @@
 
 /* --- Header (Hero) ---------------------------------------- */
-/* linear-gradient(135deg, rgba(11, 37, 69, 0.7) 0%, rgba(27, 58, 107, 0.7) 30%, rgba(13, 79, 60, 0.7) 50%)*/
-/* Header para HOME com imagem */
+/* Foto do ICE foi movido para fontes.css, e comentado, para que não apareça errado no celular, voltar a foto, basta tirar do comentário*/
+
 .page-header-home{
-  /* background-image: linear-gradient(135deg, rgba(11, 37, 69, 0.4) 10%, rgba(27, 58, 107, 0.5) 20%, rgba(13, 79, 60, 0.3) 60%), url('../images/local/ufjf_aereo.jpg') !important; */
-    background-image: linear-gradient(135deg, rgba(11, 37, 69, 0.4) 10%, rgba(27, 58, 107, 0.5) 20%, rgba(13, 79, 60, 0.3) 50%), url('../images/local/ufjf_ice_draw_7.png') !important;
+    background-image: var(--overlay-hero), var(--hero-bg-image) !important;
   background-size: cover !important;
   background-position:  top right;  
   background-attachment: fixed; 
@@ -15,29 +14,29 @@
 
 /* Texto branco na HOME */
 .page-header-home .project-name {
-  color: #fff !important;
+  color: var(--hero-text-color) !important;
 }
 
 .page-header-home .project-tagline {
-  color: #fff !important;
+  color: var(--hero-text-color) !important;
 }
 
 .page-header-home .header-local {
-  color: #fff !important;
+  color: var(--hero-text-color) !important;
 }
 
 .page-header-home .page-name {
-  color: #fff !important;
+  color: var(--hero-text-color) !important;
 }
 
 .page-header-home .page-tagline {
-  color: #fff !important;
+  color: var(--hero-text-color) !important;
 }
 
 
 /* Header para outras páginas - gradiente apenas */
 .page-header {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 60%, #0d4f3c 100%) !important;
+  background: var(--grad-header) !important;
   padding: 5rem 2rem 3.5rem !important;
   text-align: center;
   position: relative;
@@ -52,12 +51,12 @@
 }
 
 .logo_sbc {
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 2px 8px rgba(var(--black-rgb), 0.3));
   opacity: 0.8;
 }
 
 .logo_sbc_anchor span {
-  color: white;
+  color: var(--hero-text-color);
   margin-bottom: 2px;
   display: block;
   opacity: 0.8;
@@ -71,7 +70,7 @@
 }
 
 .logo_eradse_anchor span {
-  color: black;
+  color: var(--text);
   padding: 0 0 1.5rem 2.5rem;
 }
 
@@ -125,9 +124,9 @@
 
 .header-badge {
   display: inline-block;
-  background: rgba(29,158,117,0.25);
-  border: 1px solid rgba(29,158,117,0.5);
-  color: rgba(255,255,255,0.9);
+  background: rgba(var(--accent-rgb), 0.25);
+  border: 1px solid rgba(var(--accent-rgb), 0.5);
+  color: rgba(var(--white-rgb), 0.9);
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -138,9 +137,9 @@
 }
 
 .project-name {
-  font-family: 'DM Serif Display', serif !important;
-  font-size: clamp(2.5rem, 6vw, 3.8rem) !important;
-  font-weight: 400 !important;
+  font-family: var(--font-heading) !important;
+  font-size: var(--fs-hero) !important;
+  font-weight: var(--fw-heading) !important;
   line-height: 1.1 !important;
   margin-bottom: 0.5rem !important;
 }
@@ -153,16 +152,15 @@
 }
 
 .page-name {
-  font-family: 'DM Serif Display', serif !important;
-  font-size: clamp(2.5rem, 6vw, 3.8rem) !important;
-  font-weight: 400 !important;
+  font-size: var(--fs-hero) !important;
+  font-weight: var(--fw-heading) !important;
   line-height: 1.1 !important;
   margin-bottom: 0.5rem !important;
 }
 
 .page-tagline {
-  font-size: 1.05rem !important;
-  font-weight: 300 !important;
+  font-size: var(--fs-tagline) !important;
+  font-weight: var(--fw-light) !important;
   opacity: 0.82 !important;
   margin-bottom: 0.75rem !important;
 }
@@ -182,7 +180,7 @@
   height: auto;
   display: block;
   margin: 0 auto;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 2px 8px rgba(var(--black-rgb), 0.2));
 }
 
 @media (max-width: 768px) {

@@ -2,35 +2,18 @@
    ERAD/SE 2026 — Customizações sobre o tema Cayman
    ============================================================ */
 
-
-/* --- Variáveis -------------------------------------------- */
-:root {
-  --navy:      #0B2545;
-  --navy2:     #1B3A6B;
- /* --accent:    #1D9E75;*/
-  --accent:    #025fb0;
- /* --accent2:   #0F6E56; */
-  --accent2:   #ee5100;
-  --gold:      #BA7517;
-  --light:     #F0F4F8;
-  --white:     #FFFFFF;
-  --text:      #1a2a3a;
-  --muted:     #4a5f75;
-  --border:    #d0dde8;
-}
-
-
+  /* estilo, fontes e cores em fontes.css */
 
 /* --- Tipografia base -------------------------------------- */
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
   color: var(--text);
   padding-top: 64px; /* compensa navbar fixa */
 }
 
 h1, h2 {
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
+  font-family: var(--font-heading);
+  font-weight: var(--fw-heading);
 }
 
 
@@ -39,7 +22,7 @@ h1, h2 {
   background: var(--accent) !important;
   border-color: var(--accent) !important;
   border-radius: 8px !important;
-  color: #fff !important;
+  color: var(--white) !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   padding: 12px 28px !important;
@@ -50,11 +33,11 @@ h1, h2 {
 
 .btn-outline {
   background: transparent !important;
-  border: 1px solid rgba(255,255,255,0.45) !important;
+  border: 1px solid rgba(var(--white-rgb), 0.45) !important;
 }
 
 
-.btn-outline:hover { background: rgba(255,255,255,0.1) !important; }
+.btn-outline:hover { background: rgba(var(--white-rgb), 0.1) !important; }
 
 .btn-outline-dark {
   background: transparent !important;
@@ -64,7 +47,7 @@ h1, h2 {
 
 .btn-outline-dark:hover {
   background: var(--accent) !important;
-  color: #fff !important;
+  color: var(--white) !important;
 }
 
 /* --- Conteúdo principal ----------------------------------- */
@@ -75,13 +58,14 @@ h1, h2 {
 }
 
 .main-content h1, .main-content h2 {
-  font-family: 'DM Serif Display', serif;
-  color: var(--navy);
-  font-weight: 400;
+  font-family: var(--font-heading);
+  color: var(--heading-color);
+  font-weight: var(--fw-heading);
   border-bottom: none !important;
 }
 
-.main-content h2 { font-size: 1.7rem; margin-top: 2.5rem; }
+.main-content h1 { font-size: var(--fs-h1); }
+.main-content h2 { font-size: var(--fs-h2); margin-top: 2.5rem; }
 
 .main-content h2::after {
   content: '';
@@ -94,16 +78,37 @@ h1, h2 {
 }
 
 .main-content h3 {
-  font-family: 'DM Serif Display', serif;
-  color: #ee5100;
-  font-weight: 400;
+  font-family: var(--font-heading);
+  color: var(--heading-h3-color);
+  font-weight: var(--fw-heading);
+  font-size: var(--fs-h3);
 }
 
-.main-content p { color: var(--muted); line-height: 1.8; }
+.main-content h4, .main-content h5, .main-content h6 {
+  font-family: var(--font-body);
+  color: var(--heading-h4-color);
+  font-weight: var(--fw-bold);
+}
 
-.main-content strong { color: var(--text); }
+.main-content p,
+.main-content li,
+.main-content td,
+.main-content blockquote { color: var(--body-color); line-height: 1.8; }
 
-.main-content a { color: var(--accent); }
+.main-content strong { color: var(--strong-color); }
+
+.main-content a { color: var(--link-color); }
+.main-content a:hover { color: var(--link-hover-color); }
+
+/* Sobrescreve os defaults do tema Cayman, que não são tokenizáveis */
+.main-content table th,
+.main-content table td { border-color: var(--rule-color) !important; }
+.main-content table th { color: var(--heading-h4-color) !important; }
+.main-content hr { background-color: var(--rule-color) !important; }
+.main-content blockquote { border-left-color: var(--rule-color) !important; }
+.main-content code,
+.main-content pre { background-color: var(--code-bg) !important; color: var(--code-color) !important;
+                    font-family: var(--font-mono) !important; }
 
 /* --- Cards de data ---------------------------------------- */
 .dates-grid { display: grid; gap: 1rem; margin: 1.5rem 0; }
@@ -118,13 +123,13 @@ h1, h2 {
   gap: 1rem;
 }
 
-.date-card.highlight { border-left: 3px solid var(--gold); }
+.date-card.highlight { border-left: 3px solid var(--accent2); }
 
 .date-marker {
   min-width: 52px;
   height: 52px;
   background: var(--navy);
-  color: #fff;
+  color: var(--white);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -137,22 +142,22 @@ h1, h2 {
   flex-shrink: 0;
 }
 
-.date-card.highlight .date-marker { background: var(--gold); }
+.date-card.highlight .date-marker { background: var(--accent2); }
 
 .date-marker b { font-size: 1.2rem; display: block; }
 
-.date-content h4 { font-size: 0.95rem; font-weight: 500; color: var(--text); margin: 0 0 0.2rem; font-family: 'DM Sans', sans-serif; }
+.date-content h4 { font-size: 0.95rem; font-weight: 500; color: var(--text); margin: 0 0 0.2rem; font-family: var(--font-body); }
 
 .date-content p { font-size: 0.85rem; color: var(--muted); margin: 0; }
 
 /* --- Prorrogação de prazo --------------------------------- */
 @keyframes pulse-prorrogado {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(238, 81, 0, 0);
-    border-color: rgba(238, 81, 0, 0.35);
+    box-shadow: 0 0 0 0 rgba(var(--accent2-rgb), 0);
+    border-color: rgba(var(--accent2-rgb), .35);
   }
   50% {
-    box-shadow: 0 0 0 5px rgba(238, 81, 0, 0.12);
+    box-shadow: 0 0 0 5px rgba(var(--accent2-rgb), .12);
     border-color: var(--accent2);
   }
 }
@@ -163,7 +168,7 @@ h1, h2 {
 }
 
 .date-card.prorrogado {
-  border: 1px solid rgba(238, 81, 0, 0.35);
+  border: 1px solid rgba(var(--accent2-rgb), .35);
   border-left: 3px solid var(--accent2);
   animation: pulse-prorrogado 2s ease-in-out infinite;
 }
@@ -173,13 +178,13 @@ h1, h2 {
 }
 
 .date-card.encerrado {
-  border: 1px solid rgba(153, 27, 27, 0.25);
-  border-left: 3px solid #991b1b;
+  border: 1px solid rgba(var(--muted-rgb), .25);
+  border-left: 3px solid var(--muted);
   opacity: 0.75;
 }
 
 .date-card.encerrado .date-marker {
-  background: #991b1b;
+  background: var(--muted);
 }
 
 .date-old {
@@ -199,16 +204,16 @@ h1, h2 {
   font-weight: 600;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  background: #fff0e8;
+  background: var(--tone-warm-bg);
   color: var(--accent2);
-  border: 1px solid rgba(238, 81, 0, 0.3);
+  border: 1px solid rgba(var(--accent2-rgb), .3);
   margin-left: 0.4rem;
   vertical-align: middle;
   animation: blink-tag 1.4s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .date-card.prorrogado { animation: none; box-shadow: 0 0 0 3px rgba(238, 81, 0, 0.15); }
+  .date-card.prorrogado { animation: none; box-shadow: 0 0 0 3px rgba(var(--accent2-rgb), .15); }
   .prorrogado-tag { animation: none; }
 }
 
@@ -254,7 +259,7 @@ h1, h2 {
   font-weight: 500;
   color: var(--navy);
   margin: 0 0 0.3rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
 }
 
 .prog-card p {
@@ -280,7 +285,7 @@ h1, h2 {
   letter-spacing: 1px;
   color: var(--accent2);
   margin: 0 0 0.75rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
 }
 
 .goals-box ul { list-style: none; padding: 0; margin: 0; }
@@ -342,7 +347,7 @@ h1, h2 {
 /* --- Footer ----------------------------------------------- */
 .site-footer {
   background: var(--navy) !important;
-  color: rgba(255,255,255,0.6) !important;
+  color: rgba(var(--white-rgb), 0.6) !important;
   padding: 3rem 0 1.5rem !important;
   margin-top: 0 !important;
 }
@@ -359,7 +364,7 @@ h1, h2 {
   gap: 2rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(var(--white-rgb), 0.1);
 }
 
 .footer-group h4 {
@@ -367,9 +372,9 @@ h1, h2 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: rgba(255,255,255,0.4);
+  color: rgba(var(--white-rgb), 0.4);
   margin: 0 0 0.75rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
   border: none !important;
 }
 
@@ -378,28 +383,28 @@ h1, h2 {
 .footer-logos { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
 .footer-logo-pill {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(var(--white-rgb), 0.08);
+  border: 1px solid rgba(var(--white-rgb), 0.15);
   border-radius: 6px;
   padding: 5px 12px;
   font-size: 0.8rem;
   font-weight: 500;
-  color: rgba(255,255,255,0.8);
+  color: rgba(var(--white-rgb), 0.8);
   text-decoration: none;
   transition: background 0.15s;
 }
 
-.footer-logo-pill:hover { background: rgba(255,255,255,0.15); color: #fff; text-decoration: none; }
+.footer-logo-pill:hover { background: rgba(var(--white-rgb), 0.15); color: var(--white); text-decoration: none; }
 
 .footer-logo-pill.featured {
-  background: rgba(29,158,117,0.25);
-  border-color: rgba(29,158,117,0.4);
-  color: rgba(255,255,255,0.9);
+  background: rgba(var(--accent2-rgb), .30);
+  border-color: rgba(var(--accent2-rgb), .45);
+  color: rgba(var(--white-rgb), 0.9);
 }
 
 .footer-copy {
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.35) !important;
+  color: rgba(var(--white-rgb), 0.35) !important;
   text-align: center;
   margin: 0;
   line-height: 1.8;
@@ -415,7 +420,7 @@ h1, h2 {
 
 .submissoes-table th {
   background: var(--navy);
-  color: #fff;
+  color: var(--white);
   padding: 10px 14px;
   text-align: left;
   font-weight: 500;
@@ -476,12 +481,15 @@ h1, h2 {
   border-radius: 12px;
   font-size: 0.75rem;
   font-weight: 500;
+  border: 1px solid transparent;
 }
 
-.badge-green { background: #d1fae5; color: #065f46; }
-.badge-gold  { background: #fef3c7; color: #92400e; }
-.badge-blue  { background: #dbeafe; color: #1e40af; }
-.badge-red   { background: #fee2e2; color: #991b1b; }
+/* 4 status, 3 cores: os dois neutros se distinguem por preenchimento
+   (contorno = pendente, sólido = encerrado) em vez de ganhar hue novo. */
+.badge-green { background: var(--tone-accent-bg); color: var(--tone-accent-fg); }
+.badge-gold  { background: var(--tone-warm-bg);   color: var(--tone-warm-fg); }
+.badge-blue  { background: transparent; color: var(--muted); border-color: var(--border); }
+.badge-red   { background: var(--navy); color: var(--white); }
 
 /* --- Responsivo ------------------------------------------- */
 @media (max-width: 768px) {
@@ -499,7 +507,7 @@ h1, h2 {
     padding: 1rem;
     gap: 0;
     border-top: 1px solid var(--border);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 16px rgba(var(--black-rgb), 0.08);
   }
 
   .nav-menu.open { display: flex; }
@@ -664,7 +672,7 @@ h1, h2 {
 }
 
 .patrocinadores h2 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
   font-size: 1.25rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -723,7 +731,7 @@ h1, h2 {
 }
  
 .area-card h3 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--navy);
@@ -756,7 +764,7 @@ h1, h2 {
   position: absolute;
   left: 0;
   color: var(--accent);
-  font-weight: 700;
+  font-weight: var(--fw-black);
 }
 
 /* --- Card de minicurso ------------------------------------ */
@@ -783,7 +791,8 @@ h1, h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #76b900;
+  background: var(--light);
+  border: 1px solid var(--border);
   border-radius: 8px;
   font-size: 1.6rem;
 }
@@ -818,7 +827,7 @@ h1, h2 {
   position: absolute;
   left: 0;
   color: var(--accent);
-  font-weight: 700;
+  font-weight: var(--fw-black);
   font-size: 0.8rem;
 }
 
@@ -916,8 +925,8 @@ h1, h2 {
 }
 
 .social-link:hover {
-  border-color: #e1306c;
-  color: #e1306c;
+  border-color: var(--accent2);
+  color: var(--accent2);
   text-decoration: none;
 }
 

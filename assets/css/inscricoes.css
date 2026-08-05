@@ -15,7 +15,7 @@
   width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(var(--black-rgb), 0.1);
 }
 
 /* --- Wrapper com scroll horizontal ------------------------- */
@@ -24,7 +24,7 @@
   -webkit-overflow-scrolling: touch;
   margin: 2rem 0;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-md);
 }
 
 /* --- Tabela de categorias de inscrição --------------------- */
@@ -37,11 +37,11 @@
 
 .inscricoes-categorias thead th {
   background: var(--navy);
-  color: #fff;
+  color: var(--white);
   padding: 0.9rem 1rem;
   font-weight: 500;
   font-size: 0.85rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(var(--white-rgb), 0.12);
   vertical-align: middle;
 }
 
@@ -66,8 +66,8 @@
   text-align: center;
   font-size: 0.82rem;
   line-height: 1.5;
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--white);
+  border-color: rgba(var(--white-rgb), 0.15);
   width: 110px;
 }
 
@@ -86,7 +86,7 @@
 
 /* --- Blockquote de atenção -------------------------------- */
 .inscricoes-alert {
-  background: rgba(29, 158, 117, 0.08);
+  background: rgba(var(--accent-rgb), .06);
   border-left: 4px solid var(--accent);
   border-radius: 6px;
   padding: 1.25rem;
@@ -129,7 +129,7 @@
 
 .inscricoes-steps li:hover {
   border-color: var(--accent);
-  box-shadow: 0 2px 8px rgba(29, 158, 117, 0.1);
+  box-shadow: 0 2px 8px rgba(var(--accent-rgb), .12);
 }
 
 .inscricoes-steps li::before {
@@ -142,7 +142,7 @@
   width: 40px;
   height: 40px;
   background: var(--accent);
-  color: #fff;
+  color: var(--white);
   border-radius: 50%;
   font-weight: 600;
   font-size: 0.95rem;
@@ -161,8 +161,8 @@
 
 /* --- Card de contato --------------------------------------- */
 .inscricoes-contact {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
-  color: #fff;
+  background: var(--grad-header);
+  color: var(--white);
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
@@ -182,7 +182,7 @@
 }
 
 .inscricoes-contact a {
-  color: #fff;
+  color: var(--white);
   text-decoration: underline;
   font-weight: 500;
 }

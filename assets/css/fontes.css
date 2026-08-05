@@ -1,0 +1,94 @@
+:root {
+
+  --font-heading: 'DM Serif Display', Georgia, serif;  /* títulos  */
+  --font-body:    'DM Sans', system-ui, sans-serif;    /* todo o resto */
+  --font-mono:    ui-monospace, SFMono-Regular, Menlo, monospace;  /* código */
+
+  --navy:    #0B2545;   /* Header, navbar, títulos */
+  --navy2:   #17406E;   /* Segundo plano           */
+  --accent:  #1B5E9C;   /* Botão de interação      */
+  --accent2: #A34A1B;   /* Destaque                */
+
+  --text:    #16283D;   /* texto                  */
+  --muted:   #56697E;   /* texto destaque         */
+  --border:  #DBE2EA;   /* linhas                 */
+  --light:   #F2F6F9;   /* fundos border          */
+  --white:   #FFFFFF;
+}
+
+
+:root {
+
+  --navy-rgb:    11, 37, 69;
+  --navy2-rgb:   23, 64, 110;
+  --accent-rgb:  27, 94, 156;
+  --accent2-rgb: 163, 74, 27;
+  --muted-rgb:   86, 105, 126;
+  --white-rgb:   255, 255, 255;
+  --black-rgb:   0, 0, 0;
+
+  --navy-soft:    #E7ECF3;
+  --accent-soft:  #EAF1F8;
+  --accent2-soft: #FAEEE7;
+
+
+  --heading-color:    var(--navy);      
+  --heading-h3-color: var(--accent2);   
+  --heading-h4-color: var(--text);     
+  --body-color:       var(--muted);     
+  --strong-color:     var(--text);
+  --link-color:       var(--accent);
+  --link-hover-color: var(--accent2);
+  --hero-text-color:  var(--white);
+  --rule-color:       var(--border);
+  --code-bg:          var(--light);
+  --code-color:       var(--navy);
+
+
+  --fw-heading: 400; 
+  --fw-light:   300;
+  --fw-medium:  500;
+  --fw-bold:    600;
+  --fw-black:   700;
+
+  --fs-hero:    clamp(2.5rem, 6vw, 3.8rem);
+  --fs-h1:      2.1rem;
+  --fs-h2:      1.7rem;
+  --fs-h3:      1.25rem;
+  --fs-tagline: 1.05rem;
+
+
+  --tone-accent-bg:  var(--accent-soft);   --tone-accent-fg:  var(--accent);
+  --tone-warm-bg:    var(--accent2-soft);  --tone-warm-fg:    var(--accent2);
+  --tone-navy-bg:    var(--navy-soft);     --tone-navy-fg:    var(--navy);
+  --tone-neutral-bg: var(--light);         --tone-neutral-fg: var(--muted);
+
+/* ── Variáveis específicas do cronograma ───────────────────── */
+/* As variáveis do projeto (--navy, --accent, --light, etc.)   */
+/* Especificos da construção de elementos em cronogra.css */
+  --c-minicurso: var(--tone-accent-fg);   --bg-minicurso: var(--tone-accent-bg);
+  --c-palestra:  var(--tone-warm-fg);     --bg-palestra:  var(--tone-warm-bg);
+  --c-especial:  var(--tone-warm-fg);     --bg-especial:  var(--tone-warm-bg);
+  --c-forum:     var(--tone-navy-fg);     --bg-forum:     var(--tone-navy-bg);
+  --c-concurso:  var(--tone-navy-fg);     --bg-concurso:  var(--tone-navy-bg);
+  --c-forum-pos: var(--navy2);            --bg-forum-pos: var(--tone-navy-bg);
+  --c-maratona:  var(--navy2);            --bg-maratona:  var(--tone-navy-bg);
+  --c-cred:      var(--tone-neutral-fg);  --bg-cred:      var(--tone-neutral-bg);
+  --c-break:     var(--tone-neutral-fg);  --bg-break:     var(--tone-neutral-bg);
+  --c-almoco:    var(--tone-neutral-fg);  --bg-almoco:    var(--tone-neutral-bg);
+  --c-reuniao:   var(--tone-neutral-fg);  --bg-reuniao:   var(--tone-neutral-bg);
+
+
+  --shadow:    0 1px 3px rgba(var(--navy-rgb), .08);
+  --shadow-md: 0 2px 8px rgba(var(--black-rgb), .07);
+
+  /*--hero-bg-image: url('../images/local/ufjf_ice_draw_7.png'); */
+  --hero-bg-image: none;
+
+  --grad-header: linear-gradient(135deg,
+                   var(--navy) 0%, var(--navy2) 55%, var(--accent) 100%);
+  --overlay-hero: linear-gradient(135deg,
+                   rgba(var(--navy-rgb), .55) 0%,
+                   rgba(var(--navy2-rgb), .48) 45%,
+                   rgba(var(--accent-rgb), .35) 100%);
+}
