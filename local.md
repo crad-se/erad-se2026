@@ -144,3 +144,13 @@ E-mail: reservas@tradejf.com.br
 <div class="map-container">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d793.9332935180042!2d-43.371771584218386!3d-21.77541021301703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989ba1c18d2a97%3A0xacf1ee467831259e!2sInstituto%20de%20Ci%C3%AAncias%20Exatas%20-%20ICE%20-%20UFJF!5e1!3m2!1sen!2sus!4v1775582458239!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
+---
+
+## Mapa das salas
+
+<div class="local_row">
+  <div class="local_img">
+    <img src="{{ '/assets/images/local/mapa_salas.png' | relative_url }}" alt="ICE/UFJF" class="local-image">
+  </div>
+</div>
