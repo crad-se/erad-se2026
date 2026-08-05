@@ -48,16 +48,4 @@ permalink: /organizacao
 </ul>
 {% endif %}
 {% endfor %}
-</div>
 
-</div>
-
-## Patrocinadores
-
-*Informações sobre patrocínio disponíveis em breve*. 
-
-
-
-{% if site.email %}
-Entre em contato com a organização pelo e-mail: <strong> {{ site.email }}</strong>
-{% endif %}
