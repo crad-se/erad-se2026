@@ -149,8 +149,6 @@ E-mail: reservas@tradejf.com.br
 
 ## Mapa das salas {#salas}
 
-<div class="local_row">
-  <div class="local_img">
+<div class="local_img">
     <img src="{{ '/assets/images/local/mapa_salas.png' | relative_url }}" alt="ICE/UFJF" class="local-image">
-  </div>
 </div>
