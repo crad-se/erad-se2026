@@ -147,7 +147,7 @@ E-mail: reservas@tradejf.com.br
 
 ---
 
-## Mapa das salas
+## Mapa das salas {#salas}
 
 <div class="local_row">
   <div class="local_img">
