@@ -830,6 +830,11 @@ h2 {
   object-fit: contain;
 }
 
+.patrocinadores-logos img.logo-bip {
+  max-height: 180px;
+  max-width: 180px;
+}
+
 .patrocinadores-logos a:hover img {
   filter: grayscale(0%);
 }
@@ -841,6 +846,10 @@ h2 {
   .patrocinadores-logos img {
     max-height: 45px;
     max-width: 130px;
+  }
+  .patrocinadores-logos img.logo-bip {
+    max-height: 38px;
+    max-width: 111px;
   }
 }
 
